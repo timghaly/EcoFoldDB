@@ -1,0 +1,862 @@
+ID	Gene	Protein	Category	Sub-category	Pathway/Activity	EC	KO	UniProt
+AF-I3YFK7-F1-model_v4	Group1c_NiFe-Hyd_large	Group1c [NiFe]-hydrogenase large subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K00437	I3YFK7
+AF-F9U5A4-F1-model_v4	Group1d_NiFe-Hyd_large	Group1d [NiFe]-hydrogenase large subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K00437	F9U5A4
+AF-D6ZK51-F1-model_v4	Group1f_NiFe-Hyd_large	Group1f [NiFe]-hydrogenase large subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K00437	D6ZK51
+AF-K6V5B3-F1-model_v4	Group1h_NiFe-Hyd_large	Group1h [NiFe]-hydrogenase large subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K00437	K6V5B3
+AF-F7YAW7-F1-model_v4	Group2a_NiFe-Hyd_large	Group2a [NiFe]-hydrogenase large subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K00437	F7YAW7
+AF-I3YFK4-F1-model_v4	Group1c_NiFe-Hyd_small	Group1c [NiFe]-hydrogenase small subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K18008	I3YFK4
+AF-F9U5A3-F1-model_v4	Group1d_NiFe-Hyd_small	Group1d [NiFe]-hydrogenase small subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K18008	F9U5A3
+AF-D6ZK52-F1-model_v4	Group1f_NiFe-Hyd_small	Group1f [NiFe]-hydrogenase small subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K18008	D6ZK52
+AF-K6WGW5-F1-model_v4	Group1h_NiFe-Hyd_small	Group1h [NiFe]-hydrogenase small subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K18008	K6WGW5
+AF-F7YAW8-F1-model_v4	Group2a_NiFe-Hyd_small	Group2a [NiFe]-hydrogenase small subunit	Trace gas oxidation	Atmospheric hydrogen oxidation	Atmospheric hydrogen oxidation	1.12.2.1	K18008	F7YAW8
+AF-P19913-F1-model_v4	coxL	Carbon monoxide dehydrogenase large chain	Trace gas oxidation	Carbon monoxide oxidation	Carbon monoxide oxidation	1.2.5.3	K03520	P19913
+AF-P19914-F1-model_v4	coxM	Carbon monoxide dehydrogenase medium chain	Trace gas oxidation	Carbon monoxide oxidation	Carbon monoxide oxidation	1.2.5.3	K03519	P19914
+AF-P19915-F1-model_v4	coxS	Carbon monoxide dehydrogenase small chain	Trace gas oxidation	Carbon monoxide oxidation	Carbon monoxide oxidation	1.2.5.3	K03518	P19915
+AF-P22868-F1-model_v4	mmoC	Soluble methane monooxygenase reductase component	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.13.25	K16161	P22868
+AF-Q53563-F1-model_v4	mmoC	Soluble methane monooxygenase reductase component	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.13.25	K16161	Q53563
+AF-P27353-F1-model_v4	mmoX	Soluble methane monooxygenase hydroxylase component alpha subunit	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.13.25	K16157	P27353
+AF-P18798-F1-model_v4	mmoY	Soluble methane monooxygenase hydroxylase component beta subunit	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.13.25	K16158	P18798
+AF-P27355-F1-model_v4	mmoZ	Soluble methane monooxygenase hydroxylase component gamma subunit	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.13.25	K16159	P27355
+AF-Q607G3-F1-model_v4	pmoA	Particulate methane monooxygenase hydroxylase component beta subunit	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.18.3	K10944	Q607G3
+AF-G1UBD1-F1-model_v4	pmoB	Particulate methane monooxygenase hydroxylase component alpha subunit	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.18.3	K10945	G1UBD1
+AF-P97047-F1-model_v4	pmoC	Particulate methane monooxygenase hydroxylase component gamma subunit	Trace gas oxidation	Methane oxidation (Methanotrophy)	Methane oxidation (Methanotrophy)	1.14.18.3	K10946	P97047
+AF-Q2YB78-F1-model_v4	rbcL, cbbL	Ribulose bisphosphate carboxylase large chain 	Carbon cycling	Carbon fixation	Calvin–Benson–Bassham (CBB) cycle	4.1.1.39	K01601	Q2YB78
+AF-P48070-F1-model_v4	rbcL, cbbL	Ribulose bisphosphate carboxylase large chain 	Carbon cycling	Carbon fixation	Calvin–Benson–Bassham (CBB) cycle	4.1.1.39	K01601	P48070
+AF-P54206-F1-model_v4	rbcS, cbbS	Ribulose bisphosphate carboxylase small chain 	Carbon cycling	Carbon fixation	Calvin–Benson–Bassham (CBB) cycle	4.1.1.39	K01602	P54206
+AF-P12033-F1-model_v4	prk	Phosphoribulokinase	Carbon cycling	Carbon fixation	Calvin–Benson–Bassham (CBB) cycle	2.7.1.19	K00855	P12033
+AF-P19824-F1-model_v4	prk	Phosphoribulokinase	Carbon cycling	Carbon fixation	Calvin–Benson–Bassham (CBB) cycle	2.7.1.19	K00855	P19824
+AF-Q9AJC4-F1-model_v4	aclA	ATP-citrate lyase alpha-subunit	Carbon cycling	Carbon fixation	Reductive citric acid (rTCA) cycle I	2.3.3.8	K15230	Q9AJC4
+AF-Q9AQH6-F1-model_v4	aclB	ATP citrate synthase	Carbon cycling	Carbon fixation	Reductive citric acid (rTCA) cycle I	2.3.3.8	K15231	Q9AQH6
+AF-Q75VW8-F1-model_v4	ccsA	ATP citrate synthase	Carbon cycling	Carbon fixation	Reductive citric acid (rTCA) cycle II	6.2.1.18	K15232	Q75VW8
+AF-Q75VW6-F1-model_v4	ccsB	Citryl-CoA synthetase small subunit	Carbon cycling	Carbon fixation	Reductive citric acid (rTCA) cycle II	6.2.1.18	K15233	Q75VW6
+AF-Q75VX1-F1-model_v4	ccl	Citrate synthase	Carbon cycling	Carbon fixation	Reductive citric acid (rTCA) cycle II	4.1.3.34	K15234	Q75VX1
+AF-A9WC36-F1-model_v4	mct	2-methylfumaryl-CoA isomerase	Carbon cycling	Carbon fixation	3-hydroxypropionate (3HP) bi-cycle	5.4.1.3	K14470	A9WC36
+AF-A9WC41-F1-model_v4	meh	Mesaconyl-C(4)-CoA hydratase	Carbon cycling	Carbon fixation	3-hydroxypropionate (3HP) bi-cycle	4.2.1.153	K09709	A9WC41
+AF-P38945-F1-model_v4	4hbD	4-hydroxybutyrate dehydrogenase	Carbon cycling	Carbon fixation	4-hydroxybutyrate/3-hydroxypropionate (4HB/3HP) OR Dicarboxylate/4-hydroxybutyrate (DC/4HB) cycles	1.1.1.61	K18120	P38945
+AF-Q9R4Z6-F1-model_v4	abfD	4-hydroxybutyryl-CoA dehydratase/vinylacetyl-CoA delta 3-delta 2-isomerase	Carbon cycling	Carbon fixation	4-hydroxybutyrate/3-hydroxypropionate (4HB/3HP) OR Dicarboxylate/4-hydroxybutyrate (DC/4HB) cycles	4.2.1.120	K14534	Q9R4Z6
+AF-A4YDT1-F1-model_v4	hbs	4-hydroxybutyrate--CoA ligase 1	Carbon cycling	Carbon fixation	4-hydroxybutyrate/3-hydroxypropionate (4HB/3HP) OR Dicarboxylate/4-hydroxybutyrate (DC/4HB) cycles	6.2.1.40	K14466	A4YDT1
+AF-Q46389-F1-model_v4	acsE	5-methyltetrahydrofolate:corrinoid/iron-sulfur protein co-methyltransferase	Carbon cycling	Carbon fixation	Reductive acetyl-CoA pathway (Wood–Ljungdahl pathway)	2.1.1.258	K15023	Q46389
+AF-P27988-F1-model_v4	acsB	Carbon monoxide dehydrogenase/acetyl-CoA synthase subunit alpha	Carbon cycling	Carbon fixation	Reductive acetyl-CoA pathway (Wood–Ljungdahl pathway)	2.3.1.169	K14138	P27988
+AF-P38539-F1-model_v4	mxaF	Methanol dehydrogenase large subunit	Carbon cycling	One-carbon (C1) metabolism	Methanol oxidation (Methanotrophy)	1.1.2.7	K14028	P38539
+AF-Q09053-F1-model_v4	mxaI	Methanol dehydrogenase small subunit	Carbon cycling	One-carbon (C1) metabolism	Methanol oxidation (Methanotrophy)	1.1.2.7	K14029	Q09053
+AF-P29898-F1-model_v4	mxaI	Methanol dehydrogenase small subunit	Carbon cycling	One-carbon (C1) metabolism	Methanol oxidation (Methanotrophy)	1.1.2.7	K14029	P29898
+AF-P38540-F1-model_v4	mxaI	Methanol dehydrogenase small subunit	Carbon cycling	One-carbon (C1) metabolism	Methanol oxidation (Methanotrophy)	1.1.2.7	K14029	P38540
+AF-Q9LBW4-F1-model_v4	rmpA	hexulose-6-phosphate synthase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation I (RuMP pathway)	4.1.2.43	K08093	Q9LBW4
+AF-Q9S0X3-F1-model_v4	rmpB	6-phospho-3-hexuloisomerase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation I (RuMP pathway)	5.3.1.27	K08094	Q9S0X3
+AF-P25437-F1-model_v4	frmA	S-(hydroxymethyl)glutathione dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation II (glutathione-dependent)	1.1.1.284	K00121	P25437
+AF-P45382-F1-model_v4	flhA	NAD- and glutathione-dependent formaldehyde dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation II (glutathione-dependent)	1.1.1.284	K00121	P45382
+AF-P51025-F1-model_v4	frmB	S-formylglutathione hydrolase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation II (glutathione-dependent)	3.1.2.12	K01070	P51025
+AF-A1AXZ2-F1-model_v4	fghA	S-formylglutathione hydrolase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation II (glutathione-dependent)	3.1.2.12	K01070	A1AXZ2
+AF-Q8NTI8-F1-model_v4	fadH	Mycothiol-dependent formaldehyde dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation III (mycothiol-dependent)	1.1.1.306	K00153	Q8NTI8
+AF-O53533-F1-model_v4	mscR	Mycothiol-dependent formaldehyde dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation III (mycothiol-dependent)	1.1.1.306	K00153	O53533
+AF-P46154-F1-model_v4	fdhA	Formaldehyde dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation IV (thiol-independent)	1.2.1.46	K00148	P46154
+AF-C0SPA5-F1-model_v4	adhA	S-(hydroxymethyl)bacillithiol dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation V (bacillithiol-dependent)	1.1.1.306	K00153	C0SPA5
+AF-O85012-F1-model_v4	mtdB	methylene tetrahydromethanopterin dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation VI (H4MPT pathway)	1.5.1.-	K10714	O85012
+AF-O85014-F1-model_v4	mch	methylene tetrahydromethanopterin dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation VI (H4MPT pathway)	3.5.4.27	K01499	O85014
+AF-I3EAB7-F1-model_v4	folD	methylenetetrahydrofolate dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formaldehyde oxidation VII (THF pathway)	1.5.1.5	K01491	I3EAB7
+AF-Q72EJ1-F1-model_v4	fdnG	formate dehydrogenase alpha subunit	Carbon cycling	One-carbon (C1) metabolism	Formate oxidation to CO2	1.17.1.9	K00123	Q72EJ1
+AF-Q72EJ0-F1-model_v4	fdnH	formate dehydrogenase beta subunit	Carbon cycling	One-carbon (C1) metabolism	Formate oxidation to CO2	1.17.1.9	K08349	Q72EJ0
+AF-Q728X1-F1-model_v4	fdnH	formate dehydrogenase beta subunit	Carbon cycling	One-carbon (C1) metabolism	Formate oxidation to CO2	1.17.1.9	K08349	Q728X1
+AF-Q8KTI7-F1-model_v4	fdh1A	NAD-dependent formate dehydrogenase alpha subunit	Carbon cycling	One-carbon (C1) metabolism	Formate oxidation to CO2	1.17.1.9	-	Q8KTI7
+AF-Q8KTI8-F1-model_v4	fdh1B	NAD-dependent formate dehydrogenase beta subunit	Carbon cycling	One-carbon (C1) metabolism	Formate oxidation to CO2	1.17.1.9	-	Q8KTI8
+AF-O08375-F1-model_v4	fdh	NAD-dependent formate dehydrogenase	Carbon cycling	One-carbon (C1) metabolism	Formate oxidation to CO2	1.17.1.9	K00122	O08375
+AF-Q58256-F1-model_v4	mcrA	methyl-coenzyme M reductase alpha subunit	Carbon cycling	One-carbon (C1) metabolism	Methane production (Methanogenesis)	2.8.4.1	K00399	Q58256
+AF-Q58252-F1-model_v4	mcrB	methyl-coenzyme M reductase beta subunit	Carbon cycling	One-carbon (C1) metabolism	Methane production (Methanogenesis)	2.8.4.1	K00401	Q58252
+AF-P07964-F1-model_v4	mcrG	methyl-coenzyme M reductase gamma subunit	Carbon cycling	One-carbon (C1) metabolism	Methane production (Methanogenesis)	2.8.4.1	K00402	P07964
+AF-P00692-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P00692
+AF-P23671-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P23671
+AF-P30269-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P30269
+AF-P41131-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P41131
+AF-P14898-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P14898
+AF-P14899-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P14899
+AF-P00691-F1-model_v4	amyA	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P00691
+AF-A0P8X0-F1-model_v4	igtZ	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	-	A0P8X0
+AF-P25718-F1-model_v4	malS	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	K01176	P25718
+AF-O42918-F1-model_v4	meu	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	-	O42918
+AF-Q8A1G3-F1-model_v4	susG	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	-	Q8A1G3
+AF-P29750-F1-model_v4	tam	Alpha-amylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.1	-	P29750
+AF-Q9F234-F1-model_v4	aglA	Alpha-glucosidase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.20	-	Q9F234
+AF-O33830-F1-model_v4	aglA	Alpha-glucosidase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.20	-	O33830
+AF-Q9Z3R8-F1-model_v4	aglA	Alpha-glucosidase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.20	-	Q9Z3R8
+AF-D0KQM8-F1-model_v4	malA	Alpha-glucosidase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.20	-	D0KQM8
+AF-Q9AI65-F1-model_v4	palH	Alpha-glucosidase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.20	-	Q9AI65
+AF-O86959-F1-model_v4	aglB	Cyclomaltodextrinase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.54	K01208	O86959
+AF-G8JZS4-F1-model_v4	susB	Glucan 1,4-alpha-glucosidase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.3	K21574	G8JZS4
+AF-P10342-F1-model_v4	iam	Isoamylase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.68	K01214	P10342
+AF-Q5B1W7-F1-model_v4	aasA	Lytic polysaccharide monooxygenase AasA	Carbon cycling	Complex carbohydrate degradation	Starch degradation	1.14.99.55	K00516	Q5B1W7
+AF-Q5B027-F1-model_v4	aasB	Lytic polysaccharide monooxygenase AasB	Carbon cycling	Complex carbohydrate degradation	Starch degradation	1.14.99.55	K00516	Q5B027
+AF-Q8A1G0-F1-model_v4	susA	Neopullulanase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.135	K21575	Q8A1G0
+AF-C0SPA0-F1-model_v4	amyX	Pullulanase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.41	K01200	C0SPA0
+AF-P07206-F1-model_v4	pulA	Pullulanase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.41	K01200	P07206
+AF-O33840-F1-model_v4	pulA	Pullulanase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.41	K01200	O33840
+AF-A0A0H2UNG0-F1-model_v4	spuA	Pullulanase	Carbon cycling	Complex carbohydrate degradation	Starch degradation	3.2.1.41	K01200	A0A0H2UNG0
+AF-P26509-F1-model_v4	pehA	Endo-olygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.15	K01184	P26509
+AF-Q5AYH4-F1-model_v4	pga	Endopolygalacturonase D	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.15	K01184	Q5AYH4
+AF-I1BYN5-F1-model_v4	rpg	Exopolygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.67	-	I1BYN5
+AF-I1BPS7-F1-model_v4	rpg	Exopolygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.67	-	I1BPS7
+AF-Q27UB2-F1-model_v4	pgxA	Exopolygalacturonase A	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.67	-	Q27UB2
+AF-Q27UB1-F1-model_v4	pgxB	Exopolygalacturonase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.67	-	Q27UB1
+AF-Q0CXI3-F1-model_v4	pgxC	Exopolygalacturonase C	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.67	-	Q0CXI3
+AF-A2R060-F1-model_v4	pgaX	Exopolygalacturonase X	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.67	-	A2R060
+AF-P21258-F1-model_v4	ogl	Oligogalacturonate lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.6	K01730	P21258
+AF-P22751-F1-model_v4	pelX	Pectate disaccharide-lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.9	K22994	P22751
+AF-P14005-F1-model_v4	pelB	Pectate lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K01728	P14005
+AF-Q56806-F1-model_v4	pelP	Pectate lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K01728	Q56806
+AF-P0C1C3-F1-model_v4	pelC	Pectate lyase 3	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K19551	P0C1C3
+AF-Q2U8R6-F1-model_v4	plyA	Pectate lyase A	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K22539	Q2U8R6
+AF-Q0CBV0-F1-model_v4	plyB	Pectate lyase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K22539	Q0CBV0
+AF-Q65EF5-F1-model_v4	pelC	Pectate lyase C	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.10; 4.2.2.2	K19551	Q65EF5
+AF-B8NQQ7-F1-model_v4	plyC	Pectate lyase C	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K22539	B8NQQ7
+AF-P18209-F1-model_v4	pelD	Pectate lyase D	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K01728	P18209
+AF-Q4WKV8-F1-model_v4	plyF	Pectate lyase F	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K22539	Q4WKV8
+AF-Q0CJ20-F1-model_v4	plyG	Pectate lyase G	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K22539	Q0CJ20
+AF-P0C1A6-F1-model_v4	pelL	Pectate lyase L	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	K01728	P0C1A6
+AF-P16530-F1-model_v4	pelX	Pectate lyase X	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.2	-	P16530
+AF-Q12639-F1-model_v4	pelA	Pectin lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.10	-	Q12639
+AF-P27027-F1-model_v4	pelB	Pectin lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.10	-	P27027
+AF-Q5B3J8-F1-model_v4	pelF	Pectin lyase F	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.10	-	Q5B3J8
+AF-A2QK82-F1-model_v4	pme	Pectinesterase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.1.1.11	K01051	A2QK82
+AF-P47180-F1-model_v4	pga	Polygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.15	K01184	P47180
+AF-Q07181-F1-model_v4	pga	Polygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.15	K01184	Q07181
+AF-P20041-F1-model_v4	pglA	Polygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.15	K01184	P20041
+AF-P27644-F1-model_v4	pglA	Polygalacturonase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.15	K01184	P27644
+AF-O31527-F1-model_v4	yesX	Rhamnogalacturonan exolyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.24	K18198	O31527
+AF-Q00001-F1-model_v4	rhgA	Rhamnogalacturonase A	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.171	K18580	Q00001
+AF-Q5ARE6-F1-model_v4	rhgA	Rhamnogalacturonase A	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.171	K18580	Q5ARE6
+AF-B0Y0Q3-F1-model_v4	rhgB	Rhamnogalacturonase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.171	K18580	B0Y0Q3
+AF-Q4WV23-F1-model_v4	rhgB	Rhamnogalacturonase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.171	K18580	Q4WV23
+AF-Q0CFC7-F1-model_v4	rhgB	Rhamnogalacturonase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.171	K18580	Q0CFC7
+AF-P87161-F1-model_v4	rhgB	Rhamnogalacturonase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	3.2.1.171	K18580	P87161
+AF-Q8RJP2-F1-model_v4	rhiE	Rhamnogalacturonate lyase	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.23	-	Q8RJP2
+AF-B0YEH9-F1-model_v4	rglA	Rhamnogalacturonate lyase A	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.23	-	B0YEH9
+AF-Q2UDJ8-F1-model_v4	rglB	Rhamnogalacturonate lyase B	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.23	-	Q2UDJ8
+AF-Q5B5P1-F1-model_v4	rglC	Rhamnogalacturonate lyase C	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.23	-	Q5B5P1
+AF-Q2U5P7-F1-model_v4	rgtB	Rhamnogalacturonate lyase C	Carbon cycling	Complex carbohydrate degradation	Pectin degradation	4.2.2.23	-	Q2U5P7
+AF-Q8NK90-F1-model_v4	abfA	Alpha-L-arabinofuranosidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	K01209	Q8NK90
+AF-Q5BA89-F1-model_v4	abfA	Alpha-L-arabinofuranosidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	K01209	Q5BA89
+AF-P53627-F1-model_v4	abfA	Exo-alpha-(1->5)-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	K01209	P53627
+AF-A2R511-F1-model_v4	abfB	Alpha-L-arabinofuranosidase B	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	A2R511
+AF-U6BLZ9-F1-model_v4	abfB	Alpha-L-arabinofuranosidase B	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	U6BLZ9
+AF-Q82P90-F1-model_v4	abfB	Exo-alpha-(1->5)-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	Q82P90
+AF-Q841V6-F1-model_v4	abfB	Exo-alpha-(1->5)-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	Q841V6
+AF-O54161-F1-model_v4	abfB	Exo-alpha-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	O54161
+AF-P96463-F1-model_v4	abfB	Exo-alpha-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	P96463
+AF-P94552-F1-model_v4	abfC	Exo-alpha-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	P94552
+AF-T2FKR1-F1-model_v4	aes1	Acetylesterase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.6	-	T2FKR1
+AF-A7J2C6-F1-model_v4	aes1	Acetylesterase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.6	-	A7J2C6
+AF-O42814-F1-model_v4	aguA	Alpha-glucuronidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.139	K01235	O42814
+AF-Q09LY5-F1-model_v4	aguA	Xylan alpha-(1->2)-glucuronosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.131	K01235	Q09LY5
+AF-P95470-F1-model_v4	arbA	Exo-alpha-(1->5)-L-arabinofuranosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	P95470
+AF-D5EV35-F1-model_v4	axe	Acetylxylan esterase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	D5EV35
+AF-Q09LX1-F1-model_v4	axe	Acetylxylan esterase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	Q09LX1
+AF-Q99034-F1-model_v4	axe	Acetylxylan esterase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	Q99034
+AF-B3PIB0-F1-model_v4	axe	Acetylxylan esterase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	B3PIB0
+AF-O59893-F1-model_v4	axe	Acetylxylan esterase 2	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	O59893
+AF-Q5B037-F1-model_v4	axe	Acetylxylan esterase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	Q5B037
+AF-A1DBP9-F1-model_v4	axe	Acetylxylan esterase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	A1DBP9
+AF-Q8NJP6-F1-model_v4	axe	Acetylxylan esterase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.1.1.72	K05972	Q8NJP6
+AF-Q9UVX6-F1-model_v4	axhA	Alpha-L-arabinofuranosidase axhA	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	Q9UVX6
+AF-A2QTU5-F1-model_v4	axlA	Alpha-xylosidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.177	-	A2QTU5
+AF-Q7Z9M8-F1-model_v4	cel74a	Xyloglucanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.155	K18578	Q7Z9M8
+AF-P55278-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P55278
+AF-A2R6F5-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	A2R6F5
+AF-P51529-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P51529
+AF-A1A278-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	A1A278
+AF-P49425-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P49425
+AF-P49424-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P49424
+AF-G1K3N4-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	G1K3N4
+AF-B3PF24-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	B3PF24
+AF-A1D8Y6-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	A1D8Y6
+AF-P55296-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P55296
+AF-Q99036-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	Q99036
+AF-P16699-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase A and B	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P16699
+AF-P55298-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase C	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	P55298
+AF-Q5AZ53-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase C	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	Q5AZ53
+AF-A1C8U0-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase F	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	A1C8U0
+AF-B8NIV9-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase F	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	B8NIV9
+AF-A1DBV1-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase F	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	A1DBV1
+AF-Q5AR04-F1-model_v4	man	Mannan endo-1,4-beta-mannosidase F	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.78	K19355	Q5AR04
+AF-Q8RS40-F1-model_v4	txyA	Beta-1,3-xylanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.32	K20845	Q8RS40
+AF-Q9LCB9-F1-model_v4	txyA	Beta-1,3-xylanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.32	K20845	Q9LCB9
+AF-Q5BD38-F1-model_v4	xgcA	Oligoxyloglucan-reducing end-specific xyloglucanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.150	K18651	Q5BD38
+AF-B8N3L3-F1-model_v4	xgeA	Xyloglucan-specific endo-beta-1,4-glucanase A	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.151	K18576	B8N3L3
+AF-Q9HFA4-F1-model_v4	xlnA	Endo-1,4-beta-xylanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.8	K01181	Q9HFA4
+AF-Q0CB82-F1-model_v4	xlnD	Exo-1,4-beta-xylosidase bxlB	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37	-	Q0CB82
+AF-W8QRE4-F1-model_v4	xyl5	Beta-xylosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37	-	W8QRE4
+AF-P45702-F1-model_v4	xylA	Beta-xylosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37	K22268	P45702
+AF-P45704-F1-model_v4	xylA	Beta-xylosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37	K22268	P45704
+AF-A1A048-F1-model_v4	xylA	Reducing end xylose-releasing exo-oligoxylanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.156	K15531	A1A048
+AF-P96793-F1-model_v4	xylQ	Alpha-xylosidase XylQ	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.177	K01811	P96793
+AF-P45703-F1-model_v4	xynA	Endo-1,4-beta-xylanase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.8	K01181	P45703
+AF-P23552-F1-model_v4	xynB	Beta-xylosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37	K01198	P23552
+AF-P48791-F1-model_v4	xynB	Beta-xylosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37	K01198	P48791
+AF-P45982-F1-model_v4	xynB	Xylosidase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.37; 3.2.1.55	K01198	P45982
+AF-P23031-F1-model_v4	xynC	Alpha-L-arabinofuranosidase C	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	-	P23031
+AF-Q45070-F1-model_v4	xynC	Glucuronoxylanase XynC	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.136	K15924	Q45070
+AF-P45796-F1-model_v4	xynD	Arabinoxylan arabinofuranohydrolase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	K15921	P45796
+AF-Q45071-F1-model_v4	xynD	Arabinoxylan arabinofuranohydrolase	Carbon cycling	Complex carbohydrate degradation	Hemicellulose degradation	3.2.1.55	K15921	Q45071
+AF-P37651-F1-model_v4	bcsZ	Endoglucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K20542	P37651
+AF-P58935-F1-model_v4	bcsZ	Endoglucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K20542	P58935
+AF-Q8RSY9-F1-model_v4	bcsZ	Endoglucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K20542	Q8RSY9
+AF-P27051-F1-model_v4	bg1	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	P27051
+AF-P45798-F1-model_v4	bg1	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	P45798
+AF-P19254-F1-model_v4	bgc	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	P19254
+AF-P87076-F1-model_v4	bglA	Beta-glucosidase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	P87076
+AF-P16084-F1-model_v4	bglA	Beta-glucosidase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	P16084
+AF-Q59437-F1-model_v4	bglA	Beta-glucosidase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q59437
+AF-P38645-F1-model_v4	bglA	Thermostable beta-glucosidase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	P38645
+AF-Q5BFG8-F1-model_v4	bglB	Beta-glucosidase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	K05350	Q5BFG8
+AF-P14002-F1-model_v4	bglB	Thermostable beta-glucosidase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	K05350	P14002
+AF-P37073-F1-model_v4	bglBB	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	P37073
+AF-B8NGU6-F1-model_v4	bglC	Beta-glucosidase C	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	B8NGU6
+AF-Q4WD56-F1-model_v4	bglE	Beta-glucosidase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q4WD56
+AF-Q5AYH8-F1-model_v4	bglE	Beta-glucosidase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q5AYH8
+AF-A1CMH6-F1-model_v4	bglE	Beta-glucosidase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	A1CMH6
+AF-A1DLJ5-F1-model_v4	bglE	Beta-glucosidase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	A1DLJ5
+AF-B0YD91-F1-model_v4	bglE	Beta-glucosidase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	B0YD91
+AF-Q2UTX5-F1-model_v4	bglE	Beta-glucosidase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q2UTX5
+AF-Q5B681-F1-model_v4	bglN	Beta-glucosidase N	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q5B681
+AF-Q5BG51-F1-model_v4	bglO	Beta-glucosidase O	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q5BG51
+AF-P33363-F1-model_v4	bglX	Beta-glucosidase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	K05349	P33363
+AF-P23549-F1-model_v4	bgtC	Endoglucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P23549
+AF-Q2US39-F1-model_v4	btgE	Beta-glucosidase btgE	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q2US39
+AF-Q00328-F1-model_v4	cbhA	Exoglucanase 1	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.91	K19668	Q00328
+AF-P50401-F1-model_v4	cbhA	Exoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.91	K19668	P50401
+AF-A1CU44-F1-model_v4	cbhB	1,4-beta-D-glucan cellobiohydrolase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.91	-	A1CU44
+AF-A2QAI7-F1-model_v4	cbhB	1,4-beta-D-glucan cellobiohydrolase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.91	-	A2QAI7
+AF-P50899-F1-model_v4	cbhB	Exoglucanase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.91	-	P50899
+AF-Q4WFK4-F1-model_v4	cbhC	1,4-beta-D-glucan cellobiohydrolase C	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.91	-	Q4WFK4
+AF-P29719-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P29719
+AF-O08342-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	O08342
+AF-P22534-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P22534
+AF-P26414-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P26414
+AF-P54937-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P54937
+AF-P06566-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P06566
+AF-P22541-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P22541
+AF-A3DC29-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	A3DC29
+AF-P10476-F1-model_v4	celA	Endoglucanase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P10476
+AF-P27035-F1-model_v4	celA	Endoglucanase CelA	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P27035
+AF-P56680-F1-model_v4	celB	Endoglucanase 1	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P56680
+AF-P16216-F1-model_v4	celB	Endoglucanase 1	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P16216
+AF-P37701-F1-model_v4	celB	Endoglucanase 2	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P37701
+AF-P06565-F1-model_v4	celB	Endoglucanase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P06565
+AF-P23550-F1-model_v4	celB	Endoglucanase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P23550
+AF-P04956-F1-model_v4	celB	Endoglucanase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P04956
+AF-P18126-F1-model_v4	celB	Endoglucanase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P18126
+AF-Q12647-F1-model_v4	celB	Endoglucanase B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	Q12647
+AF-G4N5V2-F1-model_v4	celB	Endoglucanase cel12B	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	G4N5V2
+AF-P26222-F1-model_v4	celB	Endoglucanase E-2	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	K19357	P26222
+AF-P19424-F1-model_v4	celC	Endoglucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P19424
+AF-P0C2S3-F1-model_v4	celC	Endoglucanase C	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P0C2S3
+AF-P27033-F1-model_v4	celC	Endoglucanase C	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P27033
+AF-P19570-F1-model_v4	celC	Endoglucanase C	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P19570
+AF-G4NBX2-F1-model_v4	celC	Endoglucanase cel12C	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	G4NBX2
+AF-P37700-F1-model_v4	celC	Endoglucanase G	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P37700
+AF-A0A0U4EBH5-F1-model_v4	celD	Cellulase CelDZ1	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	A0A0U4EBH5
+AF-P0C2S4-F1-model_v4	celD	Endoglucanase D	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P0C2S4
+AF-A3DDN1-F1-model_v4	celD	Endoglucanase D	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	A3DDN1
+AF-P26221-F1-model_v4	celD	Endoglucanase E-4	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P26221
+AF-Q05622-F1-model_v4	celE	Endoglucanase E	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	Q05622
+AF-P26224-F1-model_v4	celF	Endoglucanase F	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P26224
+AF-Q05332-F1-model_v4	celG	Endoglucanase G	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	Q05332
+AF-P16218-F1-model_v4	celH	Endoglucanase H	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P16218
+AF-Q59394-F1-model_v4	celN	Endoglucanase N	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	Q59394
+AF-P0C2S5-F1-model_v4	celS	Cellulose 1,4-beta-cellobiosidase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.176	K20829	P0C2S5
+AF-P16630-F1-model_v4	celS	Endoglucanase S	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P16630
+AF-Q47096-F1-model_v4	celV	Endoglucanase 5	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	Q47096
+AF-Q59395-F1-model_v4	celV	Endoglucanase 6	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	Q59395
+AF-P15329-F1-model_v4	celX	Endoglucanase X	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P15329
+AF-P18336-F1-model_v4	celY	Endoglucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P18336
+AF-P23659-F1-model_v4	celZ	Endoglucanase Z	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P23659
+AF-P07103-F1-model_v4	celZ	Endoglucanase Z	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.4	-	P07103
+AF-Q0CEU4-F1-model_v4	eglD	AA9 family lytic polysaccharide monooxygenase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	1.14.99.56	-	Q0CEU4
+AF-A1C4H2-F1-model_v4	eglD	AA9 family lytic polysaccharide monooxygenase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	1.14.99.56	-	A1C4H2
+AF-A1DBS6-F1-model_v4	eglD	AA9 family lytic polysaccharide monooxygenase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	1.14.99.56	-	A1DBS6
+AF-A2R5N0-F1-model_v4	eglD	AA9 family lytic polysaccharide monooxygenase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	1.14.99.56	-	A2R5N0
+AF-B8MXJ7-F1-model_v4	eglD	AA9 family lytic polysaccharide monooxygenase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	1.14.99.56	-	B8MXJ7
+AF-B0Y9G4-F1-model_v4	eglD	AA9 family lytic polysaccharide monooxygenase A	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	1.14.99.56	-	B0Y9G4
+AF-Q23892-F1-model_v4	gluA	Lysosomal beta glucosidase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.21	-	Q23892
+AF-P23904-F1-model_v4	gluB	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	P23904
+AF-O14412-F1-model_v4	licA	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	O14412
+AF-Q84C00-F1-model_v4	licB	Beta-glucanase	Carbon cycling	Complex carbohydrate degradation	Cellulose degradation	3.2.1.73	-	Q84C00
+AF-P13656-F1-model_v4	chiA	Bifunctional chitinase/lysozyme	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14; 3.2.1.17	K13381	P13656
+AF-P14529-F1-model_v4	chiA	Chitinase	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	P14529
+AF-B6A876-F1-model_v4	chiA	Chitinase 1	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	B6A876
+AF-P11220-F1-model_v4	chiA	Chitinase 63	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	P11220
+AF-P32823-F1-model_v4	chiA	Chitinase A	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	P32823
+AF-P07254-F1-model_v4	chiA	Chitinase A	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	P07254
+AF-P20533-F1-model_v4	chiA	Chitinase A1	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	P20533
+AF-A5FB63-F1-model_v4	chiA	Chitinase ChiA	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	A5FB63
+AF-Q92223-F1-model_v4	chiA	Endochitinase A	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K13381	Q92223
+AF-B6A879-F1-model_v4	chiB	Chitinase 2	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K20547	B6A879
+AF-P11797-F1-model_v4	chiB	Chitinase B	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K20547	P11797
+AF-G5EAZ3-F1-model_v4	chiB	Endochitinase B	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	K20547	G5EAZ3
+AF-P36909-F1-model_v4	chiC	Chitinase C	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	-	P36909
+AF-P27050-F1-model_v4	chiD	Chitinase D	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.14	-	P27050
+AF-P33665-F1-model_v4	csnA	Chitosanase	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.132	K01233	P33665
+AF-P33673-F1-model_v4	csnA	Chitosanase	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.132	K01233	P33673
+AF-Q875I9-F1-model_v4	csnB	Endo-chitosanase	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.132	K01233	Q875I9
+AF-Q2U5P1-F1-model_v4	csnC	Endo-chitosanase C	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.132	K01233	Q2U5P1
+AF-Q75R32-F1-model_v4	csnC	Endo-chitosanase C	Carbon cycling	Complex carbohydrate degradation	Chitin degradation	3.2.1.132	K01233	Q75R32
+AF-Q47146-F1-model_v4	fadE	acyl-CoA dehydrogenase	Carbon cycling	Fatty acid degradation	Fatty acid beta-oxidation	1.3.8.7; 1.3.8.8	K06445	Q47146
+AF-P21177-F1-model_v4	fadB	Fatty acid oxidation complex subunit alpha FadB	Carbon cycling	Fatty acid degradation	Fatty acid beta-oxidation	1.1.1.35; 4.2.1.17; 5.3.3.8; 5.1.2.3	K01825	P21177
+AF-P21151-F1-model_v4	fadA	3-ketoacyl-CoA thiolase FadA	Carbon cycling	Fatty acid degradation	Fatty acid beta-oxidation	2.3.1.16	K00632	P21151
+AF-P76503-F1-model_v4	fadI	3-ketoacyl-CoA thiolase FadI	Carbon cycling	Fatty acid degradation	Fatty acid beta-oxidation	2.3.1.16	K00632	P76503
+AF-P77399-F1-model_v4	fadJ	Fatty acid oxidation complex subunit alpha FadJ	Carbon cycling	Fatty acid degradation	Fatty acid beta-oxidation	1.1.1.35; 4.2.1.17; 4.2.1.74; 5.1.2.3; 5.3.3.8	K01782	P77399
+AF-P17262-F1-model_v4	dmpB	Metapyrocatechase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	1.13.11.2	K00446	P17262
+AF-P49155-F1-model_v4	dmpH	4-oxalocrotonate decarboxylase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	4.1.1.77	K01617	P49155
+AF-C4TP07-F1-model_v4	praC	Tautomerase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	5.3.2.6	K01821	C4TP07
+AF-P19059-F1-model_v4	dmpC	2-hydroxymuconic semialdehyde dehydrogenase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	1.2.1.85	K10217	P19059
+AF-Q83VZ5-F1-model_v4	bphH	2-hydroxyhexa-2,4-dienoate hydratase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	4.2.1.132	K18364	Q83VZ5
+AF-P51015-F1-model_v4	bphI	4-hydroxy-2-oxovalerate aldolase 4	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	4.1.3.39; 4.1.3.43	K18365	P51015
+AF-P54721-F1-model_v4	catE	Catechol-2,3-dioxygenase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	1.13.11.2	K07104	P54721
+AF-P19076-F1-model_v4	dmpD	2-hydroxymuconate semialdehyde hydrolase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	3.7.1.9	K10216	P19076
+AF-P08310-F1-model_v4	catB	Muconate cycloisomerase 1	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	5.5.1.1	K01856	P08310
+AF-P07773-F1-model_v4	catA	Catechol 1,2-dioxygenase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	1.13.11.1	K03381	P07773
+AF-P80573-F1-model_v4	catC	Muconolactone Delta-isomerase	Carbon cycling	Polyphenol (Catechol) cycling	catechol degradation	5.3.3.4	K03464	P80573
+AF-Q88N36-F1-model_v4	pcaD	3-oxoadipate enol-lactonase 2	Carbon cycling	Polyphenol (Catechol / Hydroxybenzoic acids) cycling	catechol/protocatechuic acid degradation	3.1.1.24	K01055	Q88N36
+AF-P51020-F1-model_v4	mhpE	4-hydroxy-2-oxovalerate aldolase	Carbon cycling	Polyphenol (Catechol / Hydroxyphenylpropanoic acids / Hydrxoycinnamic acids) cycling	catechol/phenylpropionate/trans-cinnamate degradation	4.1.3.39	K01666	P51020
+AF-P77608-F1-model_v4	mhpD	2-keto-4-pentenoate hydratase	Carbon cycling	Polyphenol (Catechol / Hydroxyphenylpropanoic acids / Hydrxoycinnamic acids) cycling	catechol/phenylpropionate/trans-cinnamate degradation	4.2.1.80	K02554	P77608
+AF-P76113-F1-model_v4	CurA	NADPH-dependent curcumin reductase	Carbon cycling	Polyphenol (Curcumin) cycling	curcumin conversion	-	K23256	P76113
+AF-V9P074-F1-model_v4	FCR	Enoate reductase	Carbon cycling	Polyphenol (Flavonoids) cycling	flavone degradation to phloroglucinol	-	K26178	V9P074
+AF-P28012-F1-model_v4	CHI	Chalcone--flavanone isomerase 1	Carbon cycling	Polyphenol (Flavonoids) cycling	flavone degradation to phloroglucinol	5.5.1.6	K26177	P28012
+AF-R5TJH4-F1-model_v4	PHY	Phloretin hydrolase	Carbon cycling	Polyphenol (Flavonoids) cycling	flavone degradation to phloroglucinol	3.7.1.4	K22906	R5TJH4
+AF-G9YLX2-F1-model_v4	FLR	Flavin reductase	Carbon cycling	Polyphenol (Flavonoids) cycling	flavone degradation to phloroglucinol	-	K26176	G9YLX2
+AF-Q2EYY8-F1-model_v4	sam5	4-coumarate 3-hydroxylase	Carbon cycling	Polyphenol (Flavonoids) cycling	flavone/flavanone/isoflavonoid degradation	-	-	Q2EYY8
+AF-E1CIA4-F1-model_v4	DZR	Daidzein reductase	Carbon cycling	Polyphenol (Flavonoids) cycling	isoflavonoid conversion	-	K26069	E1CIA4
+AF-F7V1S3-F1-model_v4	TDR	FAD-dependent oxidoreductase 2 FAD binding domain-containing protein	Carbon cycling	Polyphenol (Flavonoids) cycling	isoflavonoid conversion	-	K26071	F7V1S3
+AF-E7FL41-F1-model_v4	DDR	Dihydrodaidzein reductase	Carbon cycling	Polyphenol (Flavonoids) cycling	isoflavonoid conversion	-	K26070	E7FL41
+AF-I7H868-F1-model_v4	DDRC	Dihydrodaizein racemase	Carbon cycling	Polyphenol (Flavonoids) cycling	isoflavonoid conversion	-	K26175	I7H868
+AF-D8J0W9-F1-model_v4	FdeE	FAD-dependent 2-polyprenyl-6-methoxyphenol hydroxylase protein	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26180	D8J0W9
+AF-D8J0W7-F1-model_v4	FdeC	Glyoxalase II protein	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26181	D8J0W7
+AF-D8J0W8-F1-model_v4	fdeD	Naringenin degradation protein FdeD	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26179	D8J0W8
+AF-D8J0X2-F1-model_v4	fdeH	Naringenin degradation protein FdeH	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26182	D8J0X2
+AF-D8J0X4-F1-model_v4	fdeJ	Naringenin degradation protein FdeJ	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26183	D8J0X4
+AF-D8J0W6-F1-model_v4	fdeB	Naringenin degradation protein FdeB	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26184	D8J0W6
+AF-D8J0X3-F1-model_v4	fdeI	Naringenin degradation protein FdeI	Carbon cycling	Polyphenol (Flavonoids) cycling	naringenin degradation	-	K26185	D8J0X3
+AF-P46852-F1-model_v4	queD	Quercetin 2,3-dioxygenase	Carbon cycling	Polyphenol (Flavonoids) cycling	quercetin degradation	1.13.11.24	K07155; K06911	P46852
+AF-P78581-F1-model_v4	tanA	Tannase	Carbon cycling	Polyphenol (Hydrolyzable tannin) cycling	hydrolyzable tannin depolymerization	3.1.1.20	K10759	P78581
+AF-Q6SSJ6-F1-model_v4	mobA	3-hydroxybenzoate 4-monooxygenase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	3-hydroxybenzoate conversion to protocatechuic acid	1.14.13.23	K19065	Q6SSJ6
+AF-G2IQS7-F1-model_v4	ligM	Vanillate/3-O-methylgallate O-demethylase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	3-o-methylgallate coversion to gallate / vanillate conversion to protocatechuate	2.1.1.341	K15066	G2IQS7
+AF-Q7WYU8-F1-model_v4	desZ	3-O-methylgallate 3,4-dioxygenase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	3-o-methylgallate degradation	-	K15065	Q7WYU8
+AF-Q53005-F1-model_v4	hbaA	4-hydroxybenzoate--CoA/benzoate--CoA ligase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	4-hydroxybenzoate conversion to benzoyl-coa	6.2.1.27; 6.2.1.25	K04105; K20458	Q53005
+AF-O33818-F1-model_v4	hcrC	4-hydroxybenzoyl-CoA reductase subunit gamma	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	4-hydroxybenzoate conversion to benzoyl-coa	1.1.7.11	K04107	O33818
+AF-O33819-F1-model_v4	hcrA	4-hydroxybenzoyl-CoA reductase subunit alpha	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	4-hydroxybenzoate conversion to benzoyl-coa	1.1.7.11	K04108	O33819
+AF-O33820-F1-model_v4	hcrB	4-hydroxybenzoyl-CoA reductase subunit beta	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	4-hydroxybenzoate conversion to benzoyl-coa	1.1.7.11	K04109	O33820
+AF-Q6N8N2-F1-model_v4	cyp199A2	Cytochrome p450 CYP199A2	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	4-methoxybenzoate conversion	1.14.99.15	K22553	Q6N8N2
+AF-F9US27-F1-model_v4	lpdC	Gallate decarboxylase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gallate conversion to pyrogallol	4.1.1.59	K22958	F9US27
+AF-F9UT67-F1-model_v4	lpdB	Flavin prenyltransferase LpdB	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gallate conversion to pyrogallol	4.1.1.59	K22959	F9UT67
+AF-F9UT68-F1-model_v4	lpdD	Protein LpdD	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gallate conversion to pyrogallol	4.1.1.59	K22960	F9UT68
+AF-Q88JX5-F1-model_v4	galA	Gallate dioxygenase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gallate degradation	1.13.11.57	K04099	Q88JX5
+AF-Q9S3U6-F1-model_v4	genD	Gentisate 1,2 dioxygenase 1	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gentisic acid degradation route 1	1.13.11.4	K00450	Q9S3U6
+AF-Q0QFQ3-F1-model_v4	hbzF	Maleylpyruvate hydrolase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gentisic acid degradation route 1	3.7.1.23	K20758	Q0QFQ3
+AF-O86043-F1-model_v4	nagL	Maleylpyruvate isomerase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gentisic acid degradation route 2	5.2.1.4	K01801	O86043
+AF-O86042-F1-model_v4	nagK	Fumarylpyruvate hydrolase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	gentisic acid degradation route 2	3.7.1.20	K16165	O86042
+AF-P22635-F1-model_v4	ligA	Protocatechuate 4,5-dioxygenase alpha chain	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	1.13.11.8	K04100	P22635
+AF-P22636-F1-model_v4	ligB	Protocatechuate 4,5-dioxygenase beta chain	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	1.13.11.8	K04101	P22636
+AF-G2IQQ8-F1-model_v4	ligK	4-carboxy-4-hydroxy-2-oxoadipate aldolase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	4.1.3.17	K10218	G2IQQ8
+AF-G2IQQ5-F1-model_v4	ligJ	2-keto-4-carboxy-3-hexenedioate hydratase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	4.2.1.83	K10220; K16515 	G2IQQ5
+AF-O87170-F1-model_v4	ligI	2-pyrone-4,6-dicarboxylate hydrolase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	3.1.1.57	K10221	O87170
+AF-Q88JY0-F1-model_v4	galD	4-oxalomesaconate tautomerase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	5.3.2.8	K16514	Q88JY0
+AF-P00436-F1-model_v4	pcaG	Protocatechuate 3,4-dioxygenase alpha chain	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	1.13.11.3	K00448	P00436
+AF-P20372-F1-model_v4	pcaH	Protocatechuate 3,4-dioxygenase beta chain	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	1.13.11.3	K00449	P20372
+AF-P20370-F1-model_v4	pcaC	4-carboxymuconolactone decarboxylase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	4.1.1.44	K01607	P20370
+AF-Q59092-F1-model_v4	pcaB	3-carboxy-cis,cis-muconate cycloisomerase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	protocatechuic acid degradation	5.5.1.2	K01857	Q59092
+AF-P0A391-F1-model_v4	nahF	Salicylaldehyde dehydrogenase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	salicylaldehyde conversion to salicylate	1.2.1.65	K00152	P0A391
+AF-P23262-F1-model_v4	nahG	Salicylate hydroxylase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	salicylic acid conversion to catechol	1.14.13.1	K00480	P23262
+AF-Q7X281-F1-model_v4	sdgC	Salicyloyl-CoA 5-hydroxylase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	salicylic acid conversion to gentisic acid route 1	1.14.13.209	K21684	Q7X281
+AF-O52380-F1-model_v4	nagH	Salicylate 5-hydroxylase, small oxygenase component	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	salicylic acid conversion to gentisic acid route 2	1.14.13.172	K18242	O52380
+AF-G2IJ05-F1-model_v4	desA	Syringate O-demethylase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	syringic acid coversion to 3-o-methylgallate	-	K15064	G2IJ05
+AF-O05616-F1-model_v4	vanA	Vanillate O-demethylase oxygenase subunit	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	vanillate conversion to protocatechuate route 1	1.14.13.82	K03862	O05616
+AF-O24840-F1-model_v4	vanB	Vanillate O-demethylase oxidoreductase	Carbon cycling	Polyphenol (Hydroxybenzoic acids) cycling	vanillate conversion to protocatechuate route 1	1.14.13.82	K03863	O24840
+AF-Q9KWL3-F1-model_v4	ligC	4-carboxy-2-hydroxymuconate-6-semialdehyde dehydrogenase	Carbon cycling	Polyphenol (Hydroxybenzoic acids / Hydroxyphenylacetic acids) cycling	protocatechuic acid / homoprotocatechuic acid degradation	1.1.1.312	K10219 	Q9KWL3
+AF-H6LGM8-F1-model_v4	carE	Caffeyl-CoA reductase-Etf complex subunit CarE	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	caffeate respiration	1.3.1.108	K22432	H6LGM8
+AF-H6LGM7-F1-model_v4	carD	Caffeyl-CoA reductase-Etf complex subunit CarD	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	caffeate respiration	1.3.1.108	K22431	H6LGM7
+AF-H6LGM6-F1-model_v4	carC	Caffeyl-CoA reductase-Etf complex subunit CarC	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	caffeate respiration	1.3.1.108	K22430	H6LGM6
+AF-Q9XB60-F1-model_v4	carB	Carboxymethylproline synthase	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	caffeate respiration	1.3.1.108	-	Q9XB60
+AF-Q9XB61-F1-model_v4	carA	Carbapenam-3-carboxylate synthase	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	caffeate respiration	1.3.1.108	-	Q9XB61
+AF-A7YN26-F1-model_v4	chlE	Chlorogenic acid esterase	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	chlorogenic acid cleavage	3.1.1.42	-	A7YN26
+AF-S5M744-F1-model_v4	fcs	Feruloyl-CoA synthase	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	ferulic acid conversion to vanillin	6.2.1.34	K12508	S5M744
+AF-Q8RR28-F1-model_v4	ferB	Feruloyl-CoA hydratase/lyase	Carbon cycling	Polyphenol (Hydroxycinnamic acids) cycling	ferulic acid conversion to vanillin	4.1.2.61	K18383 	Q8RR28
+AF-Q9RE15-F1-model_v4	hpaB	3,4-dihydroxyphenylacetate 2,3-dioxygenase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	4-hydroxyphenylacetate conversion to homoprotocatechuic acid	1.14.14.9	K00483	Q9RE15
+AF-Q88E47-F1-model_v4	hmgA	Homogentisate 1,2-dioxygenase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homogentisic acid degradation	1.13.11.5	K00451	Q88E47
+AF-Q00770-F1-model_v4	FahA	Fumarylacetoacetase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homogentisic acid degradation	3.7.1.2	K01555	Q00770
+AF-F8G0M3-F1-model_v4	maiA	Maleate isomerase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homogentisic acid degradation	5.2.1.2	K01800	F8G0M3
+AF-Q4KKA2-F1-model_v4	gabD	Succinate-semialdehyde dehydrogenase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homoprotocatechuic acid degradation	1.2.1.16	K00135	Q4KKA2
+AF-Q46982-F1-model_v4	hpaH	2-oxo-hept-4-ene-1,7-dioate hydratase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homoprotocatechuic acid degradation	4.2.1.-	K02509	Q46982
+AF-Q47098-F1-model_v4	hpaI	4-hydroxy-2-oxo-heptane-1,7-dioate aldolase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homoprotocatechuic acid degradation	4.1.2.52	K02510	Q47098
+AF-Q46978-F1-model_v4	hpaG	4-hydroxyphenylacetate degradation bifunctional isomerase/decarboxylase [Includes: 2-hydroxyhepta-2,4-diene-1,7-dioate isomerase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	homoprotocatechuic acid degradation	4.1.1.68	K05921	Q46978
+AF-Q8L3B1-F1-model_v4	padG	NADH-dependent phenylglyoxylate dehydrogenase subunit alpha	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.2.1.58	K18355	Q8L3B1
+AF-Q8L3A9-F1-model_v4	padI	NADH-dependent phenylglyoxylate dehydrogenase subunit beta	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.2.1.58	K18356	Q8L3A9
+AF-Q8L3B3-F1-model_v4	padE	NADH-dependent phenylglyoxylate dehydrogenase subunit gamma	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.2.1.58	K18357	Q8L3B3
+AF-Q8L3B2-F1-model_v4	padF	NADH-dependent phenylglyoxylate dehydrogenase subunit delta	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.2.1.58	K18358	Q8L3B2
+AF-Q8L3B0-F1-model_v4	padH	NADH-dependent phenylglyoxylate dehydrogenase subunit epsilon	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.2.1.58	K18359	Q8L3B0
+AF-A0A2R4BIA9-F1-model_v4	padB	Phenylacetyl-CoA:acceptor oxidoreductase-like protein, large subunit PadB	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.17.5.1	K18361	A0A2R4BIA9
+AF-A0A2R4BI99-F1-model_v4	padC	Phenylacetyl-CoA:acceptor oxidoreductase-like protein, small subunit PadC	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.17.5.1	K18362	A0A2R4BI99
+AF-A0A2R4BI96-F1-model_v4	padD	Phenylacetyl-CoA:acceptor oxidoreductase membrane subunit PadD	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacetate conversion to benzoyl-coa	1.17.5.1	K18363	A0A2R4BI96
+AF-P76083-F1-model_v4	paaH	3-hydroxyadipyl-CoA dehydrogenase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	1.1.1.157	K00074	P76083
+AF-Q845K2-F1-model_v4	paaF	Putative enoyl-CoA hydratase I	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	4.2.1.17	K01692	Q845K2
+AF-Q9L9C1-F1-model_v4	paaK	Phenylacetate-coenzyme A ligase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	6.2.1.30	K01912	Q9L9C1
+AF-Q845J6-F1-model_v4	paaA	Putative ring-oxydation complex protein 1	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	1.14.13.149	K02609	Q845J6
+AF-Q845J5-F1-model_v4	paaB	Putative ring-oxydation complex protein 2	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	1.14.13.149	K02610	Q845J5
+AF-Q845J4-F1-model_v4	paaC	Putative ring-oxydation complex protein 3	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	1.14.13.149	K02611	Q845J4
+AF-Q845J2-F1-model_v4	paaE	Putative ring-oxydation complex protein 5	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	1.14.13.149	K02613	Q845J2
+AF-Q845J8-F1-model_v4	paaJ	Putative ketothiolase	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	2.3.1.223	K02615	Q845J8
+AF-P77455-F1-model_v4	paaZ	Bifunctional protein PaaZ	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	3.3.2.12	K02618	P77455
+AF-Q845K1-F1-model_v4	paaG	Putative enoyl-CoA hydratase II	Carbon cycling	Polyphenol (Hydroxyphenylacetic acids) cycling	phenylacteate degradation	5.3.3.18	K15866	Q845K1
+AF-Q55810-F1-model_v4	hppD	4-hydroxyphenylpyruvate dioxygenase	Carbon cycling	Polyphenol (Hydroxyphenylpropanoic acids) cycling	p-hydroxyphenyl conversion to homogentisate	1.13.11.27	K00457	Q55810
+AF-Q46980-F1-model_v4	hpaD	3,4-dihydroxyphenylacetate 2,3-dioxygenase	Carbon cycling	Polyphenol (Hydroxyphenylpropanoic acids) cycling	phenylpropionate degradation	1.18.1.3	K00529	Q46980
+AF-Q46979-F1-model_v4	hpaE	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase	Carbon cycling	Polyphenol (Hydroxyphenylpropanoic acids) cycling	phenylpropionate degradation	1.14.12.19	K05708	Q46979
+AF-Q46981-F1-model_v4	hpaF	5-carboxymethyl-2-hydroxymuconate delta-isomerase	Carbon cycling	Polyphenol (Hydroxyphenylpropanoic acids) cycling	phenylpropionate degradation	1.14.12.19	K05709	Q46981
+AF-Q57501-F1-model_v4	hpaC	4-hydroxyphenylacetate 3-monooxygenase reductase component	Carbon cycling	Polyphenol (Hydroxyphenylpropanoic acids) cycling	phenylpropionate degradation	-	K05710	Q57501
+AF-Q8L386-F1-model_v4	ehyA	Eugenol hydroxylase alpha-subunit	Carbon cycling	Polyphenol (Hydroxyphenylpropenes) cycling	eugenol conversion to coniferyl alcohol	-	-	Q8L386
+AF-Q8L385-F1-model_v4	ehyB	Eugenol hydroxylase beta-subunit	Carbon cycling	Polyphenol (Hydroxyphenylpropenes) cycling	eugenol conversion to coniferyl alcohol	-	-	Q8L385
+AF-C3VA26-F1-model_v4	iem	Isoeugenol monooxygenase	Carbon cycling	Polyphenol (Hydroxyphenylpropenes) cycling	isoeugenol conversion to vanillin	1.13.11.88	-	C3VA26
+AF-P77650-F1-model_v4	hcaD	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin--NAD(+) reductase component	Carbon cycling	Polyphenol (Hydrxoycinnamic acids) cycling	trans-cinnamate degradation	1.18.1.3	K00529	P77650
+AF-P0ABR5-F1-model_v4	hcaE	3-phenylpropionate/cinnamic acid dioxygenase subunit alpha	Carbon cycling	Polyphenol (Hydrxoycinnamic acids) cycling	trans-cinnamate degradation	1.14.12.19	K05708	P0ABR5
+AF-Q47140-F1-model_v4	hcaF	3-phenylpropionate/cinnamic acid dioxygenase subunit beta	Carbon cycling	Polyphenol (Hydrxoycinnamic acids) cycling	trans-cinnamate degradation	1.14.12.19	K05709	Q47140
+AF-P0ABW0-F1-model_v4	hcaC	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin subunit	Carbon cycling	Polyphenol (Hydrxoycinnamic acids) cycling	trans-cinnamate degradation	-	K05710	P0ABW0
+AF-P77397-F1-model_v4	mhpA	3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase	Carbon cycling	Polyphenol (Hydrxoycinnamic acids) cycling	trans-cinnamate degradation	1.14.13.127	K05712	P77397
+AF-P0CI31-F1-model_v4	hcaB	3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	Carbon cycling	Polyphenol (Hydrxoycinnamic acids / Hydroxyphenylpropanoic acids) cycling	trans-cinnamate / phenylpropionate degradation	1.3.1.87	K05711	P0CI31
+AF-P0ABR9-F1-model_v4	mhpB	2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic acid 1,2-dioxygenase	Carbon cycling	Polyphenol (Hydrxoycinnamic acids / Hydroxyphenylpropanoic acids) cycling	trans-cinnamate / phenylpropionate degradation	1.13.11.16	K05713	P0ABR9
+AF-P77044-F1-model_v4	mhpC	2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase	Carbon cycling	Polyphenol (Hydrxoycinnamic acids / Hydroxyphenylpropanoic acids) cycling	trans-cinnamate / phenylpropionate degradation	3.7.1.14	K05714	P77044
+AF-G2INY4-F1-model_v4	phcC	Choline dehydrogenase	Carbon cycling	Polyphenol (Lignans) cycling	dehydroconiferyl alcohol conversion	-	-	G2INY4
+AF-G2INY6-F1-model_v4	phcD	Choline dehydrogenase	Carbon cycling	Polyphenol (Lignans) cycling	dehydroconiferyl alcohol conversion	-	-	G2INY6
+AF-A0A1J1EM40-F1-model_v4	sesA	Sesamin methylene transferase	Carbon cycling	Polyphenol (Lignans) cycling	sesamin conversion	-	K22578	A0A1J1EM40
+AF-Q53353-F1-model_v4	lsd	Lignostilbene-alpha,beta-dioxygenase isozyme I	Carbon cycling	Polyphenol (Lignans / Resveratrol) cycling	dehydroconiferyl alcohol conversion / resveratrol conversion to hydroxybenzaldehydes	-	-	Q53353
+AF-G2IN04-F1-model_v4	ligXa	5,5'-dehydrodivanillate O-demethylase oxygenase subunit	Carbon cycling	Polyphenol (Lignin) cycling	5,5'-dehydrodivanillate conversion to vanillate	-	K15060	G2IN04
+AF-O82834-F1-model_v4	ligZ	Biphenyl ring cleavage enzyme	Carbon cycling	Polyphenol (Lignin) cycling	5,5'-dehydrodivanillate conversion to vanillate	-	K15061	O82834
+AF-Q9Z9I9-F1-model_v4	ligY	OH-DDVA meta-cleavage compound hydrolase	Carbon cycling	Polyphenol (Lignin) cycling	5,5'-dehydrodivanillate conversion to vanillate	-	K15062	Q9Z9I9
+AF-Q8RJ47-F1-model_v4	ligW	5-carboxyvanillate decarboxylase	Carbon cycling	Polyphenol (Lignin) cycling	5,5'-dehydrodivanillate conversion to vanillate	-	K15063	Q8RJ47
+AF-G2IN77-F1-model_v4	ligXc	5,5'-dehydrodivanillate O-demethylase ferredoxin subunit	Carbon cycling	Polyphenol (Lignin) cycling	5,5'-dehydrodivanillate conversion to vanillate	-	K24244	G2IN77
+AF-G2ITT5-F1-model_v4	ligXd	5,5'-dehydrodivanillate O-demethylase ferredoxin reductase subunit	Carbon cycling	Polyphenol (Lignin) cycling	5,5'-dehydrodivanillate conversion to vanillate	-	K24245	G2ITT5
+AF-P07788-F1-model_v4	cotA	Laccase	Carbon cycling	Polyphenol (Lignin) cycling	Lignin degradation	-	K00421	P07788
+AF-P0DMP5-F1-model_v4	calA	Coniferyl-alcohol dehydrogenase	Carbon cycling	Polyphenol (Methoxyphenols) cycling	coniferyl alcohol conversion to ferulic acid	1.1.1.194	-	P0DMP5
+AF-O86447-F1-model_v4	calB	Coniferyl aldehyde dehydrogenase	Carbon cycling	Polyphenol (Methoxyphenols) cycling	coniferyl alcohol conversion to ferulic acid	-	K00154; K12355	O86447
+AF-P0DPQ7-F1-model_v4	gcoA	Aromatic O-demethylase, cytochrome P450 subunit	Carbon cycling	Polyphenol (Methoxyphenols) cycling	guaiacol conversion to catechol	-	K23526	P0DPQ7
+AF-P0DPQ8-F1-model_v4	gcoB	Aromatic O-demethylase, reductase subunit	Carbon cycling	Polyphenol (Methoxyphenols) cycling	guaiacol conversion to catechol	-	K23527	P0DPQ8
+AF-P94405-F1-model_v4	bsdC	Phenolic acid decarboxylase	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to 4-hydroxybenzoate	4.1.1.61	K01612; K16239	P94405
+AF-P94404-F1-model_v4	bsdb	Probable UbiX-like flavin prenyltransferase	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to 4-hydroxybenzoate	2.5.1.129	K03186	P94404
+AF-C0H3U9-F1-model_v4	bsdD	Protein BsdD	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to 4-hydroxybenzoate	4.1.1.61	K21759	C0H3U9
+AF-P15245-F1-model_v4	pheA	Phenol hydroxylase	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.7	K03380	P15245
+AF-P19732-F1-model_v4	dmpN	Phenol 2-monooxygenase, oxygenase component DmpN	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.243; 1.14.13.244	K16242	P19732
+AF-P19730-F1-model_v4	dmpL	Phenol 2-monooxygenase, oxygenase component DmpL	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.243; 1.14.13.244	K16243	P19730
+AF-P19731-F1-model_v4	dmpM	Phenol 2-monooxygenase, stimulatory component DmpM	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.243; 1.14.13.244	K16244	P19731
+AF-P19733-F1-model_v4	dmpO	Phenol 2-monooxygenase, oxygenase component DmpO	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.243; 1.14.13.244	K16245	P19733
+AF-P19734-F1-model_v4	dmpP	Phenol 2-monooxygenase, reductase component DmpP	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.243; 1.14.13.244	K16246	P19734
+AF-P19729-F1-model_v4	dmpK	Phenol 2-monooxygenase, auxiliary component DmpK	Carbon cycling	Polyphenol (Phenol) cycling	phenol conversion to catechol	1.14.13.243; 1.14.13.244	K16249	P19729
+AF-P57793-F1-model_v4	pgr	Phloroglucinol reductase	Carbon cycling	Polyphenol (Phloroglucinol) cycling	phloroglucinol degradation	1.3.1.57	-	P57793
+AF-P80563-F1-model_v4	pgthA	Pyrogallol hydroxytransferase large subunit	Carbon cycling	Polyphenol (Pyrogallol) cycling	pyrogallol conversion to phloroglucinol	1.97.1.2	-	P80563
+AF-P80564-F1-model_v4	pgthB	Pyrogallol hydroxytransferase small subunit	Carbon cycling	Polyphenol (Pyrogallol) cycling	pyrogallol conversion to phloroglucinol	-	-	P80564
+AF-Q60FX6-F1-model_v4	rdc	Gamma-resorcylate decarboxylase	Carbon cycling	Polyphenol (Resorcinol) cycling	resorcylic acid degradation	4.1.1.103	K20941	Q60FX6
+AF-O84992-F1-model_v4	marA	Maleylacetate reductase 1	Carbon cycling	Polyphenol (Resorcinol) cycling	resorcylic acid degradation	1.3.1.32	K00217	O84992
+AF-Q5PXQ6-F1-model_v4	chqB	Hydroxyquinol 1,2-dioxygenase	Carbon cycling	Polyphenol (Resorcinol) cycling	resorcylic acid degradation	1.13.11.37	K04098 	Q5PXQ6
+AF-A1IIX2-F1-model_v4	graA	FADH(2)-dependent resorcinol hydroxylase, oxygenase component	Carbon cycling	Polyphenol (Resorcinol) cycling	resorcylic acid degradation	1.14.14.27; 1.14.13.220; 1.14.13.219	K20942; K20944; K20943	A1IIX2
+AF-K9UV87-F1-model_v4	vdh	Vanillin dehydrogenase	Carbon cycling	Polyphenol (Vanillin) cycling	vanillin conversion to vanillate	1.2.1.67	K21802	K9UV87
+AF-P56216-F1-model_v4	vaoa	Vanillyl-alcohol oxidase	Carbon cycling	Polyphenol (Vanillyl alcohol) cycling	vanillyl-alcohol conversion to vanillate	1.1.3.38	K20153	P56216
+AF-Q52383-F1-model_v4	tcbAa	Chlorobenzene dioxygenase, large subunit of terminal oxygenase	Carbon cycling	Aromatic hydrocarbon cycling	benzene conversion to catechol	1.14.12.3; 1.14.12.111.14.12.26	K03268	Q52383
+AF-Q52384-F1-model_v4	tcbAb	Chlorobenzene dioxygenase, small subunit of terminal oxygenase	Carbon cycling	Aromatic hydrocarbon cycling	benzene conversion to catechol	1.14.12.3; 1.14.12.111.14.12.26	K16268	Q52384
+AF-Q52387-F1-model_v4	tcbB	Chlorobenzene glycol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	benzene conversion to catechol	1.3.1.19; 1.3.1.119	K16269	Q52387
+AF-Q52385-F1-model_v4	tcbAc	Chlorobenzene dioxygenase, ferredoxin	Carbon cycling	Aromatic hydrocarbon cycling	benzene conversion to catechol	-	K18089	Q52385
+AF-Q52386-F1-model_v4	tcbAd	Chlorobenzene dioxygenase, NADH-ferredoxin reductase	Carbon cycling	Aromatic hydrocarbon cycling	benzene conversion to catechol	1.18.1.3	K18090	Q52386
+AF-Q59760-F1-model_v4	badA	Benzoate-coenzyme A ligase	Carbon cycling	Aromatic hydrocarbon cycling	benzoate conversion to benzoyl-coa	6.2.1.25	K04110	Q59760
+AF-P07769-F1-model_v4	benA	Benzoate 1,2-dioxygenase subunit alpha	Carbon cycling	Aromatic hydrocarbon cycling	benzoate degradation to catechol	1.14.12.10	K05549	P07769
+AF-P07770-F1-model_v4	benB	Benzoate 1,2-dioxygenase subunit beta	Carbon cycling	Aromatic hydrocarbon cycling	benzoate degradation to catechol	1.14.12.10	K05550	P07770
+AF-P07772-F1-model_v4	benD	1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	benzoate degradation to catechol	1.3.1.25	K05783	P07772
+AF-P07771-F1-model_v4	benC	Benzoate 1,2-dioxygenase electron transfer component [Includes: Ferredoxin; Ferredoxin--NAD(+) reductase	Carbon cycling	Aromatic hydrocarbon cycling	benzoate degradation to catechol	-	K05784	P07771
+AF-P00438-F1-model_v4	pobA	p-hydroxybenzoate hydroxylase	Carbon cycling	Aromatic hydrocarbon cycling	benzoate degradation to protocatechuic acid	1.14.13.2	K00481	P00438
+AF-P17549-F1-model_v4	pbhA	Benzoate 4-monooxygenase bphA	Carbon cycling	Aromatic hydrocarbon cycling	benzoate degradation to protocatechuic acid	1.14.14.92	K07824	P17549
+AF-Q9AIX6-F1-model_v4	boxA	Benzoyl-CoA oxygenase component A	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation	1.14.13.208	K15511	Q9AIX6
+AF-Q9AIX7-F1-model_v4	boxB	Benzoyl-CoA oxygenase component B	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation	1.14.13.208	K15512	Q9AIX7
+AF-Q84HH6-F1-model_v4	boxC	Benzoyl-CoA-dihydrodiol lyase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation	4.1.2.44	K15513	Q84HH6
+AF-Q84HH8-F1-model_v4	boxD	3,4-dehydroadipyl-CoA semialdehyde dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation	1.2.1.77	K15514	Q84HH8
+AF-O87874-F1-model_v4	bcrC	Benzoyl-CoA reductase subunit C	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	1.3.7.8	K04112	O87874
+AF-O87875-F1-model_v4	bcrB	Benzoyl-CoA reductase subunit B	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	1.3.7.8	K04113	O87875
+AF-O87876-F1-model_v4	bcrA	Benzoyl-CoA reductase subunit A	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	1.3.7.8	K04114	O87876
+AF-O87877-F1-model_v4	bcrD	Benzoyl-CoA reductase subunit D	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	1.3.7.8	K04115	O87877
+AF-Q2LXU6-F1-model_v4	dch	Enoyl-CoA hydratase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	4.2.1.100	K07537	Q2LXU6
+AF-O87871-F1-model_v4	had	6-hydroxycyclohex-1-ene-1-carbonyl-CoA dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	1.1.1.368	K07538	O87871
+AF-O87872-F1-model_v4	oah	6-oxocyclohex-1-ene-1-carbonyl-CoA hydrolase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 1	3.7.1.21	K07539	O87872
+AF-Q39TV8-F1-model_v4	bamB	Bifurcating benzoyl-CoA reductase complex BamB subunit	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 2	-	K19515	Q39TV8
+AF-Q39TV9-F1-model_v4	bamC	Bifurcating benzoyl-CoA reductase complex BamC subunit	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 2	-	K19516	Q39TV9
+AF-O07453-F1-model_v4	badK	Cyclohex-1-ene-1-carboxyl-CoA hydratase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 3	-	K07534	O07453
+AF-O07457-F1-model_v4	badH	2-hydroxycyclohexanecarboxyl-CoA dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 3	-	K07535	O07457
+AF-O07456-F1-model_v4	badI	1,4-dihydroxy-2-naphthoyl-CoA synthase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 3	-	K07536	O07456
+AF-Q39QF5-F1-model_v4	acad	Cyclohex-1-ene-1-carbonyl-CoA dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	benzoyl-coa degradation route 3	1.3.8.10	K19066 	Q39QF5
+AF-A0A097SRG2-F1-model_v4	bphC	Biphenyl-2,3-diol 1,2-dioxygenase	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	1.13.11.39	K00462	A0A097SRG2
+AF-Q53122-F1-model_v4	bphAa	Biphenyl 2,3-dioxygenase subunit alpha	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	1.14.12.18	K08689	Q53122
+AF-A0A097SRI2-F1-model_v4	bphB	Cis-2,3-dihydrobiphenyl-2,3-diol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	1.3.1.56	K08690	A0A097SRI2
+AF-Q75WN8-F1-model_v4	bphD	2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	3.7.1.8	K10222	Q75WN8
+AF-Q53123-F1-model_v4	bphAb	Biphenyl 2,3-dioxygenase subunit beta	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	1.14.12.18	K15750	Q53123
+AF-Q53124-F1-model_v4	bphAc	Biphenyl 2,3-dioxygenase, ferredoxin component	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	-	K18087	Q53124
+AF-Q0S032-F1-model_v4	bphAd	Biphenyl 2,3-dioxygenase, ferredoxin reductase component	Carbon cycling	Aromatic hydrocarbon cycling	biphenyl conversion to benzoate	1.18.1.3	K18088	Q0S032
+AF-Q51974-F1-model_v4	cmtAb	p-cumate 2,3-dioxygenase system, large oxygenase component	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	1.14.12.25	K10619	Q51974
+AF-P0C622-F1-model_v4	cmtB	2,3-dihydroxy-2,3-dihydro-p-cumate dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	1.3.1.58	K10620	P0C622
+AF-Q51976-F1-model_v4	cmtC	2,3-dihydroxy-p-cumate dioxygenase	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	1.13.11.14	K10621	Q51976
+AF-Q51979-F1-model_v4	cmtD	2-hydroxy-3-carboxy-6-oxo-7-methylocta-2, 4-dienate decarboxylase	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	-	K10622	Q51979
+AF-Q51980-F1-model_v4	cmtE	2-hydroxy-6-oxo-7-methylocta-2,4-dienoate hydrolase	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	-	K10623	Q51980
+AF-Q51975-F1-model_v4	cmtAc	p-cumate 2,3-dioxygenase system, small oxygenase component	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	1.14.12.25	K16303	Q51975
+AF-Q51978-F1-model_v4	cmtAd	p-cumate 2,3-dioxygenase system, ferredoxin component	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	-	K16304	Q51978
+AF-Q51973-F1-model_v4	cmtAa	p-cumate 2,3-dioxygenase system, ferredoxin--NAD(+) reductase component	Carbon cycling	Aromatic hydrocarbon cycling	cumic acid degradation	1.18.1.3	K18227	Q51973
+AF-O33456-F1-model_v4	cymAa	CymAa	Carbon cycling	Aromatic hydrocarbon cycling	cymene conversion to cumic acid	1.14.15.25	K10616	O33456
+AF-O33454-F1-model_v4	cymB	CymB	Carbon cycling	Aromatic hydrocarbon cycling	cymene conversion to cumic acid	-	K10617	O33454
+AF-O33455-F1-model_v4	cymC	CymC	Carbon cycling	Aromatic hydrocarbon cycling	cymene conversion to cumic acid	-	K10618	O33455
+AF-O33457-F1-model_v4	cymAb	CymAb	Carbon cycling	Aromatic hydrocarbon cycling	cymene conversion to cumic acid	1.18.1.3	K18293	O33457
+AF-Q93PD2-F1-model_v4	ebdA	Ethylbenzene dehydrogenase subunit A	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	1.17.99.2	K10700	Q93PD2
+AF-Q5P5G2-F1-model_v4	apcA	Acetophenone carboxylase alpha subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	6.4.1.8	K10701	Q5P5G2
+AF-Q5P5G3-F1-model_v4	apcB	Acetophenone carboxylase beta subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	6.4.1.8	K10701	Q5P5G3
+AF-Q5P5G4-F1-model_v4	apcC	Acetophenone carboxylase gamma subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	6.4.1.8	K10701	Q5P5G4
+AF-Q5P5G5-F1-model_v4	apcD	Acetophenone carboxylase delta subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	6.4.1.8	K10701	Q5P5G5
+AF-Q5P5G6-F1-model_v4	apcE	Acetophenone carboxylase epsilon subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	6.4.1.8	K10701	Q5P5G6
+AF-Q5P5I4-F1-model_v4	ped	(S)-1-Phenylethanol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	1.1.1.311	K14746	Q5P5I4
+AF-Q5P5G7-F1-model_v4	bal	Benzoylacetate-CoA ligase	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	-	K14747	Q5P5G7
+AF-Q93PD1-F1-model_v4	ebdB	Anaerobic ethylbenzene dehydrogenase subunit B	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	-	K17048	Q93PD1
+AF-Q93PD0-F1-model_v4	ebdC	Anaerobic ethylbenzene dehydrogenase subunit C	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene conversion to benzoyl-coa	-	K17049	Q93PD0
+AF-Q75WN5-F1-model_v4	etbAa	Ethylbenzene dioxygenase alpha subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene degradation	-	K14748	Q75WN5
+AF-Q75WN4-F1-model_v4	etbAb	Ethylbenzene dioxygenase beta subunit	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene degradation	-	K14749	Q75WN4
+AF-Q75WN3-F1-model_v4	etbAc	Ethylbenzene dioxygenase ferredoxin component	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene degradation	-	K14750	Q75WN3
+AF-A0A7W6PWX1-F1-model_v4	etbC	2,3-dihydroxyethylbenzene 1,2-dioxygenase	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene degradation	-	K14751	A0A7W6PWX1
+AF-Q75WN2-F1-model_v4	etbD	2-hydroxt-6-oxohepta-2,4-dienoate hydrolase	Carbon cycling	Aromatic hydrocarbon cycling	ethylbenzene degradation	-	K18092	Q75WN2
+AF-P20906-F1-model_v4	mdlC	Benzoylformate decarboxylase	Carbon cycling	Aromatic hydrocarbon cycling	mandelic acid conversion to benzoate	4.1.1.7	K01576	P20906
+AF-P11444-F1-model_v4	mdlA	Mandelate racemase	Carbon cycling	Aromatic hydrocarbon cycling	mandelic acid conversion to benzoate	5.1.2.2	K01781	P11444
+AF-P20932-F1-model_v4	mdlB	(S)-mandelate dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	mandelic acid conversion to benzoate	1.1.99.31	K15054	P20932
+AF-P0A185-F1-model_v4	nahAb	Naphthalene 1,2-dioxygenase system, ferredoxin component	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	-	K14578	P0A185
+AF-P0A110-F1-model_v4	nahAc	Naphthalene 1,2-dioxygenase system, large oxygenase component	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	1.14.12.12; 1.14.12.23; 1.14.12.24	K14579	P0A110
+AF-P0A112-F1-model_v4	nahAd	Naphthalene 1,2-dioxygenase system, small oxygenase component	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	1.14.12.12; 1.14.12.23; 1.14.12.24	K14580	P0A112
+AF-Q52126-F1-model_v4	nahAa	Naphthalene 1,2-dioxygenase system ferredoxin--NAD(P)(+), reductase component	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	-	K14581	Q52126
+AF-P0A169-F1-model_v4	nahB	1,2-dihydroxy-1,2-dihydronaphthalene dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	1.3.1.29; 1.3.1.60	K14582	P0A169
+AF-P11861-F1-model_v4	nahC	1,2-dihydroxynaphthalene dioxygenase	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	1.13.11.56	K14583	P11861
+AF-Q51948-F1-model_v4	nahD	2-hydroxychromene-2-carboxylate isomerase	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	5.99.1.4	K14584	Q51948
+AF-Q51947-F1-model_v4	nahE	Trans-O-hydroxybenzylidenepyruvate hydratase-aldolase	Carbon cycling	Aromatic hydrocarbon cycling	napthalene conversion to salicylaldehyde	4.1.2.45	K14585	Q51947
+AF-I2DCL0-F1-model_v4	nidA	PAH dioxygenase large subunit	Carbon cycling	Aromatic hydrocarbon cycling	phenanthrene conversion to naphthalene-1,2-diol	-	K11943	I2DCL0
+AF-I2DCK9-F1-model_v4	nidB	PAH dioxygenase small beta subunit	Carbon cycling	Aromatic hydrocarbon cycling	phenanthrene conversion to naphthalene-1,2-diol	-	K11944	I2DCK9
+AF-Q9LC87-F1-model_v4	phdF	Extradiol dioxygenase	Carbon cycling	Aromatic hydrocarbon cycling	phenanthrene conversion to naphthalene-1,2-diol	-	K11945	Q9LC87
+AF-Q9LC84-F1-model_v4	phdG	Hydratase-aldolase	Carbon cycling	Aromatic hydrocarbon cycling	phenanthrene conversion to naphthalene-1,2-diol	-	K11946	Q9LC84
+AF-Q9KHU2-F1-model_v4	nidD	Aldehyde dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	phenanthrene conversion to naphthalene-1,2-diol	-	K11947	Q9KHU2
+AF-Q9WXG7-F1-model_v4	phdE	Cis-3,4-dihydrophenanthrene-3,4-diol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	phenanthrene conversion to naphthalene-1,2-diol	1.3.1.49	K18257	Q9WXG7
+AF-Q05185-F1-model_v4	pht5	4,5-dihydroxyphthalate decarboxylase	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 1	4.1.1.55	K04102	Q05185
+AF-A0A6N8HLC2-F1-model_v4	pht4	Phthalate 4,5-cis-dihydrodiol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 1	1.3.1.64	K18067	A0A6N8HLC2
+AF-Q05183-F1-model_v4	pht3	Phthalate 4,5-dioxygenase oxygenase subunit	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 1	1.14.12.7	K18068	Q05183
+AF-A0A5P9CJ71-F1-model_v4	pht2	Phthalate 4,5-dioxygenase oxygenase reductase subunit	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 1	-	K18069	A0A5P9CJ71
+AF-B8YFX2-F1-model_v4	phtAa	Phthalate dioxygenase large subunit	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 2	-	K18251	B8YFX2
+AF-A0A4R2Q9Z7-F1-model_v4	phtAb	Phthalate 3,4-dioxygenase beta subunit	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 2	-	K18252	A0A4R2Q9Z7
+AF-Q0RWD0-F1-model_v4	phtAd	Phthalate 3,4-dioxygenase ferredoxin reductase subunit	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 2	1.18.1.3	K18254	Q0RWD0
+AF-A1T2B3-F1-model_v4	phtB	Phthalate 3,4-dihydrodiol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 2	-	K18255	A1T2B3
+AF-Q9AGK2-F1-model_v4	phtC	3,4-dihydroxyphthalate decarboxylase	Carbon cycling	Aromatic hydrocarbon cycling	phthalate conversion to protocatechuic acid route 2	4.1.1.69	K18256	Q9AGK2
+AF-Q3C1E3-F1-model_v4	tphA2	Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 1	Carbon cycling	Aromatic hydrocarbon cycling	terephthalate conversion to protocatechuate	1.14.12.15	K18074	Q3C1E3
+AF-Q3C1E2-F1-model_v4	tphA3	Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 1	Carbon cycling	Aromatic hydrocarbon cycling	terephthalate conversion to protocatechuate	1.14.12.15	K18075	Q3C1E2
+AF-Q3C1E1-F1-model_v4	tphB	1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	terephthalate conversion to protocatechuate	1.3.1.53	K18076	Q3C1E1
+AF-Q3C1E0-F1-model_v4	tphA1	Terephthalate 1,2-dioxygenase, reductase component 1	Carbon cycling	Aromatic hydrocarbon cycling	terephthalate conversion to protocatechuate	-	K18077	Q3C1E0
+AF-P39849-F1-model_v4	xylB	Aryl-alcohol dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	1.1.1.90	K00055	P39849
+AF-P43503-F1-model_v4	xylC	Benzaldehyde dehydrogenase [NAD(+)]	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	1.2.1.28	K00141	P43503
+AF-Q00456-F1-model_v4	tmoA	Toluene-4-monooxygenase system, hydroxylase component subunit alpha	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	1.14.13.236	K15760	Q00456
+AF-Q00457-F1-model_v4	tmoB	Toluene-4-monooxygenase system, hydroxylase component subunit gamma	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	-	K15761	Q00457
+AF-Q00458-F1-model_v4	tmoC	Toluene-4-monooxygenase system, ferredoxin component	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	-	K15762	Q00458
+AF-Q00459-F1-model_v4	tmoD	Toluene-4-monooxygenase system, effector component	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	-	K15763	Q00459
+AF-Q00460-F1-model_v4	tmoE	Toluene-4-monooxygenase system, hydroxylase component subunit beta	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	-	K15764	Q00460
+AF-Q03304-F1-model_v4	tmoF	Toluene-4-monooxygenase system, ferredoxin--NAD(+) reductase component	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoate	1.18.1.3	K15765	Q03304
+AF-O87943-F1-model_v4	bssA	Benzylsuccinate synthase alpha subunit	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	4.1.99.11	K07540	O87943
+AF-Q9KJF0-F1-model_v4	bbsE	Succinyl-CoA:(R)-benzylsuccinate CoA-transferase subunit BbsE	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	2.8.3.15	K07543	Q9KJF0
+AF-Q9KJE9-F1-model_v4	bbsF	Succinyl-CoA:(R)-benzylsuccinate CoA-transferase subunit BbsF	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	2.8.3.15	K07544	Q9KJE9
+AF-Q9KJE8-F1-model_v4	bbsG	(R)-benzylsuccinyl-CoA dehydrogenase	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	1.3.8.3	K07545	Q9KJE8
+AF-Q9KJE7-F1-model_v4	bbsH	(E)-benzylidenesuccinyl-CoA hydratase	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	-	K07546	Q9KJE7
+AF-Q9KJF2-F1-model_v4	bbsC	(2S)-[(R)-hydroxy(phenyl)methyl]succinyl-CoA dehydrogenase subunit BbsC	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	1.1.1.429	K07547	Q9KJF2
+AF-Q9KJF1-F1-model_v4	bbsD	(2S)-[(R)-hydroxy(phenyl)methyl]succinyl-CoA dehydrogenase subunit BbsD	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	1.1.1.429	K07548	Q9KJF1
+AF-Q9KJF4-F1-model_v4	bbsA	Benzoylsuccinyl-CoA thiolase subunit BbsA	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	-	K07549	Q9KJF4
+AF-Q9KJF3-F1-model_v4	bbsB	Benzoylsuccinyl-CoA thiolase subunit BbsB	Carbon cycling	Aromatic hydrocarbon cycling	toluene conversion to benzoyl-coa	-	K07550	Q9KJF3
+AF-P94679-F1-model_v4	tsaM	Toluene-4-sulfonate monooxygenase system iron-sulfur subunit TsaM1	Carbon cycling	Aromatic hydrocarbon cycling	toluene-4-sulfonate conversion to protocatechuic acid	-	K15768	P94679
+AF-Q9AHG2-F1-model_v4	tsaB	Toluene-4-sulfonate monooxygenase system reductase subunit TsaB2	Carbon cycling	Aromatic hydrocarbon cycling	toluene-4-sulfonate conversion to protocatechuic acid	-	K15769	Q9AHG2
+AF-Q9AHG1-F1-model_v4	tsaD	4-(hydroxymethyl)benzenesulfonate dehydrogenase TsaD2	Carbon cycling	Aromatic hydrocarbon cycling	toluene-4-sulfonate conversion to protocatechuic acid	1.1.1.257	K19629	Q9AHG1
+AF-P94681-F1-model_v4	tsaC	4-formylbenzenesulfonate dehydrogenase TsaC1/TsaC2	Carbon cycling	Aromatic hydrocarbon cycling	toluene-4-sulfonate conversion to protocatechuic acid	1.2.1.62	K19630	P94681
+AF-P21395-F1-model_v4	xylM	Xylene/toluene monooxygenase hydroxylase component XylM	Carbon cycling	Aromatic hydrocarbon cycling	xylene conversion to toluate	1.14.15.26	K15757	P21395
+AF-P21394-F1-model_v4	xylA	Xylene/toluene monooxygenase electron transfer component XylA	Carbon cycling	Aromatic hydrocarbon cycling	xylene conversion to toluate	1.18.1.3	K15758	P21394
+AF-P16266-F1-model_v4	anfD	[FeFe]-nitrogenase complex dinitrogenase componen subunit alpha	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	-	P16266
+AF-P16268-F1-model_v4	anfG	[FeFe]-nitrogenase complex dinitrogenase component delta subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K00531	P16268
+AF-P16269-F1-model_v4	anfH	[FeFe]-nitrogenase complex nitrogenase reductase component	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	-	P16269
+AF-P16267-F1-model_v4	anfK	[FeFe]-nitrogenase complex dinitrogenase component subunit beta	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	-	P16267
+AF-P07328-F1-model_v4	nifD	[FeMo]-nitrogenase complex dinitrogenase alpha subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02586	P07328
+AF-P00466-F1-model_v4	nifD	[FeMo]-nitrogenase complex dinitrogenase alpha subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02586	P00466
+AF-P33177-F1-model_v4	nifD	[FeMo]-nitrogenase complex dinitrogenase alpha subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02586	P33177
+AF-P00459-F1-model_v4	nifH	[FeMo]-nitrogenase complex reductase component	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02588	P00459
+AF-P00458-F1-model_v4	nifH	[FeMo]-nitrogenase complex reductase component	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02588	P00458
+AF-P33178-F1-model_v4	nifH	[FeMo]-nitrogenase complex reductase component	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02588	P33178
+AF-P07329-F1-model_v4	nifK	[FeMo]-nitrogenase complex dinitrogenase component beta subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02591	P07329
+AF-P09772-F1-model_v4	nifK	[FeMo]-nitrogenase complex dinitrogenase component beta subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02591	P09772
+AF-Q44486-F1-model_v4	nifK	[FeMo]-nitrogenase complex dinitrogenase component beta subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.1	K02591	Q44486
+AF-Q44563-F1-model_v4	vnfD	[FeV]-nitrogenase complex dinitrogenase component alpha subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.2	K22896	Q44563
+AF-P16857-F1-model_v4	vnfG	[FeV]-nitrogenase complex reductase component	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.2	K22898	P16857
+AF-Q57302-F1-model_v4	vnfK	[FeV]-nitrogenase complex dinitrogenase component beta subunit	Nitrogen cycling	N2 fixation	N2 fixation	1.18.6.2	K22897	Q57302
+AF-Q04507-F1-model_v4	amoA	Ammonia monooxygenase alpha subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10944	Q04507
+AF-Q04508-F1-model_v4	amoB	Ammonia monooxygenase beta subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10945	Q04508
+AF-Q82T63-F1-model_v4	amoC	Ammonia monooxygenase gamma subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10946	Q82T63
+AF-F4N9Y5-F1-model_v4	amoA	Ammonia monooxygenase alpha subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10944	F4N9Y5
+AF-A0A0U3R9G0-F1-model_v4	amoA	Ammonia monooxygenase alpha subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10944	A0A0U3R9G0
+AF-F4N9Y6-F1-model_v4	amoB	Ammonia monooxygenase beta subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10945	F4N9Y6
+AF-A0A0C5C1W4-F1-model_v4	amoB	Ammonia monooxygenase beta subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10945	A0A0C5C1W4
+AF-A0A0D5C0I4-F1-model_v4	amoC	Ammonia monooxygenase gamma subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10946	A0A0D5C0I4
+AF-A0A060HNS7-F1-model_v4	amoC	Ammonia monooxygenase gamma subunit	Nitrogen cycling	Nitrification	Ammonia oxidation (Nitrification)	1.14.99.39	K10946	A0A060HNS7
+AF-Q50925-F1-model_v4	hao	Hydroxylamine oxidoreductase	Nitrogen cycling	Nitrification	Hydroxylamine oxidation to nitrite (Nitrification)	1.7.2.6; 1.7.2.9	K10535; K00378	Q50925
+AF-Q1PZD8-F1-model_v4	nxrA	Nitrite oxidoreductase alpha subunit	Nitrogen cycling	Nitrification	Nitrite oxidation to nitrate (Nitrification)	1.7.99.-	K00370	Q1PZD8
+AF-Q1PZD5-F1-model_v4	nxrB	Nitrite oxidoreductase beta subunit	Nitrogen cycling	Nitrification	Nitrite oxidation to nitrate (Nitrification)	1.7.99.-	K00371	Q1PZD5
+AF-Q1PZD4-F1-model_v4	nxrC	Nitrite oxidoreductase gamma subunit	Nitrogen cycling	Nitrification	Nitrite oxidation to nitrate (Nitrification)	1.7.99.-	-	Q1PZD4
+AF-P09152-F1-model_v4	narG	Respiratory nitrate reductase alpha subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00370	P09152
+AF-P85097-F1-model_v4	narG	Respiratory nitrate reductase alpha subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00370	P85097
+AF-I3R9M9-F1-model_v4	narG	Respiratory nitrate reductase alpha subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00370	I3R9M9
+AF-P42176-F1-model_v4	narH	Respiratory nitrate reductase beta subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00371	P42176
+AF-P85098-F1-model_v4	narH	Respiratory nitrate reductase beta subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00371	P85098
+AF-I3R9M8-F1-model_v4	narH	Respiratory nitrate reductase beta subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00371	I3R9M8
+AF-P42177-F1-model_v4	narI	Respiratory nitrate reductase gamma subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.7.5.1	K00374	P42177
+AF-Q67QZ1-F1-model_v4	napA	Periplasmic nitrate reductase alpha subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.9.6.1	K02567	Q67QZ1
+AF-A6Q604-F1-model_v4	napA	Periplasmic nitrate reductase alpha subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.9.6.1	K02567	A6Q604
+AF-P0ABL3-F1-model_v4	napB	Periplasmic nitrate reductase, electron transfer subunit	Nitrogen cycling	Denitrification	Nitrate reduction (Denitrification)	1.9.6.1	K02567	P0ABL3
+AF-Q06006-F1-model_v4	nirK	Dissimilatory nitrite reductase NirK	Nitrogen cycling	Denitrification	Nitrite reduction (Denitrification)	1.7.2.1	K00368	Q06006
+AF-P24040-F1-model_v4	nirS	Dissimilatory nitrite reductase NirS	Nitrogen cycling	Denitrification	Nitrite reduction (Denitrification)	1.7.2.1; 1.7.99.1	K15864	P24040
+AF-P72181-F1-model_v4	nirS	Dissimilatory nitrite reductase NirS	Nitrogen cycling	Denitrification	Nitrite reduction (Denitrification)	1.7.2.1; 1.7.99.1	K15864	P72181
+AF-P23295-F1-model_v4	nor_fungal	NADP nitrous oxide-forming nitric oxide reductase	Nitrogen cycling	Denitrification	Nitric oxide reduction (Denitrification)	1.7.1.14	K15877	P23295
+AF-Q59647-F1-model_v4	norB	Nitric oxide reductase subunit B	Nitrogen cycling	Denitrification	Nitric oxide reduction (Denitrification)	1.7.2.5	K04561	Q59647
+AF-Q52527-F1-model_v4	norC	Nitric oxide reductase subunit C	Nitrogen cycling	Denitrification	Nitric oxide reduction (Denitrification)	1.7.2.5	K02305	Q52527
+AF-P94127-F1-model_v4	nosZ	Nitrous-oxide reductase	Nitrogen cycling	Denitrification	Nitrous oxide reduction (Denitrification)	1.7.2.4	K00376	P94127
+AF-Q59105-F1-model_v4	nosZ	Nitrous-oxide reductase	Nitrogen cycling	Denitrification	Nitrous oxide reduction (Denitrification)	1.7.2.4	K00376	Q59105
+AF-P08201-F1-model_v4	nirB	Nitrite reductase	Nitrogen cycling	Dissimilatory nitrate reduction to ammonium (DNRA)	Nitrite reduction to ammonia (DNRA)	1.7.1.15	K00362	P08201
+AF-P0A230-F1-model_v4	nirD	Nitrite reductase	Nitrogen cycling	Dissimilatory nitrate reduction to ammonium (DNRA)	Nitrite reduction to ammonia (DNRA)	1.7.1.15	K00363	P0A230
+AF-Q65RI4-F1-model_v4	nrfA	Cytochrome c552 nitrite reductase	Nitrogen cycling	Dissimilatory nitrate reduction to ammonium (DNRA)	Nitrite reduction to ammonia (DNRA)	1.7.2.2	K03385	Q65RI4
+AF-P0ABL1-F1-model_v4	nrfB	Periplasmic nitrite reductase penta-heme c-type cytochrome	Nitrogen cycling	Dissimilatory nitrate reduction to ammonium (DNRA)	Nitrite reduction to ammonia (DNRA)	1.7.2.2	K03385	P0ABL1
+AF-Q06458-F1-model_v4	nasB	Nitrite reductase [NAD(P)H] large subunit	Nitrogen cycling	Nitrate assimilation	Assimilatory nitrate reduction	1.7.1.4	K00361	Q06458
+AF-P42435-F1-model_v4	nasD	Nitrite reductase [NAD(P)H]	Nitrogen cycling	Nitrate assimilation	Assimilatory nitrate reduction	1.7.1.4	K26139	P42435
+AF-P42436-F1-model_v4	nasE	Assimilatory nitrite reductase [NAD(P)H] small subunit	Nitrogen cycling	Nitrate assimilation	Assimilatory nitrate reduction	1.7.1.4	K26138	P42436
+AF-P39661-F1-model_v4	nirA	Ferredoxin--nitrite reductase	Nitrogen cycling	Nitrate assimilation	Assimilatory nitrate reduction	1.7.7.1	K00366	P39661
+AF-Q1Q0T2-F1-model_v4	hzsA	hydrazine synthase alpha subunit	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.7	K20932; K20933; K20934	Q1Q0T2
+AF-Q1Q0T3-F1-model_v4	hzsB	hydrazine synthase beta subunit	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.7	K20932; K20933; K20934	Q1Q0T3
+AF-Q1Q0T4-F1-model_v4	hzsC	hydrazine synthase gamma subunit	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.7	K20932; K20933; K20934	Q1Q0T4
+AF-A0P9I2-F1-model_v4	hzoA	hydrazine oxidoreductase A	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.8	K20935	A0P9I2
+AF-A0P951-F1-model_v4	hzoB	hydrazine oxidoreductase B	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.8	K20935	A0P951
+AF-Q9AQT6-F1-model_v4	ureA	Urease gamma subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01430	Q9AQT6
+AF-Q75ZQ4-F1-model_v4	ureA	Urease gamma subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01430	Q75ZQ4
+AF-P50044-F1-model_v4	ureAB	Urease gamma-beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K14048	P50044
+AF-B5ZBT0-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	B5ZBT0
+AF-C5C8U2-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	C5C8U2
+AF-P50045-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	P50045
+AF-Q4A0J4-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	Q4A0J4
+AF-Q57CE9-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	Q57CE9
+AF-B8HA07-F1-model_v4	ureC	Urease alpha subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01428	B8HA07
+AF-Q87WW0-F1-model_v4	cysD	Sulfate adenylyltransferase subunit 2	Sulphur cycling	Sulphate reduction	Sulphate <-> APS	2.7.7.4	K00957	Q87WW0
+AF-Q64VQ9-F1-model_v4	cysN	Sulfate adenylyltransferase subunit 1	Sulphur cycling	Sulphate reduction	Sulphate <-> APS	2.7.7.4	K00956	Q64VQ9
+AF-Q54506-F1-model_v4	sat	Sulfate adenylyltransferase	Sulphur cycling	Sulphate reduction	Sulphate <-> APS	2.7.7.4	K00958	Q54506
+AF-Q7UMW2-F1-model_v4	cysNC	Bifunctional enzyme CysN/CysC	Sulphur cycling	Sulphate reduction	Sulphate <-> APS <-> PAPS	2.7.1.25; 2.7.7.4	K00955	Q7UMW2
+AF-A9ENT2-F1-model_v4	cysNC	Bifunctional enzyme CysN/CysC	Sulphur cycling	Sulphate reduction	Sulphate <-> APS <-> PAPS	2.7.1.25; 2.7.7.4	K00955	A9ENT2
+AF-A9G7W0-F1-model_v4	cysNC	Bifunctional enzyme CysN/CysC	Sulphur cycling	Sulphate reduction	Sulphate <-> APS <-> PAPS	2.7.1.25; 2.7.7.4	K00955	A9G7W0
+AF-Q9YCR6-F1-model_v4	cysC	Adenylyl-sulfate kinase	Sulphur cycling	Sulphate reduction	APS <-> PAPS	2.7.1.25	K00860	Q9YCR6
+AF-Q7UQW3-F1-model_v4	cysC	Adenylyl-sulfate kinase	Sulphur cycling	Sulphate reduction	APS <-> PAPS	2.7.1.25	K00860	Q7UQW3
+AF-P29811-F1-model_v4	cysC	Adenylyl-sulfate kinase	Sulphur cycling	Sulphate reduction	APS <-> PAPS	2.7.1.25	K00860	P29811
+AF-O29953-F1-model_v4	cysC	Adenylyl-sulfate kinase	Sulphur cycling	Sulphate reduction	APS <-> PAPS	2.7.1.25	K00860	O29953
+AF-Q5N1N0-F1-model_v4	cysH	Phosphoadenosine 5'-phosphosulfate reductase	Sulphur cycling	Sulphate reduction	PAPS <-> sulphite	1.8.4.8	K00390	Q5N1N0
+AF-T2G6Z9-F1-model_v4	aprA	Adenylylsulfate reductase subunit alpha	Sulphur cycling	Sulphate reduction	APS <-> sulphite	1.8.99.2	K00394	T2G6Z9
+AF-T2G899-F1-model_v4	aprB	Adenylylsulfate reductase subunit beta	Sulphur cycling	Sulphate reduction	APS <-> sulphite	1.8.99.2	K00395	T2G899
+AF-A1KU05-F1-model_v4	cysI	Sulfite reductase [NADPH] hemoprotein beta-component	Sulphur cycling	Sulphite reduction	Sulphite <-> sulphide	1.8.1.2	K00381	A1KU05
+AF-P52674-F1-model_v4	cysJ	Sulfite reductase [NADPH] flavoprotein alpha-component	Sulphur cycling	Sulphite reduction	Sulphite <-> sulphide	1.8.1.2	K00380	P52674
+AF-O33998-F1-model_v4	dsrA	Sulfite reductase, dissimilatory-type subunit alpha	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.1.22	K11180	O33998
+AF-Q59110-F1-model_v4	dsrB	Sulfite reductase, dissimilatory-type subunit beta	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.1.22	K11181	Q59110
+AF-P94694-F1-model_v4	dsrB	Sulfite reductase, dissimilatory-type subunit beta	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.1.22	K11181	P94694
+AF-P45573-F1-model_v4	dsrC	Sulfite reductase, dissimilatory-type subunit gamma	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.1.22	K23077	P45573
+AF-P9WJ03-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	P9WJ03
+AF-P30008-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	P30008
+AF-P72854-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	P72854
+AF-P9WJ02-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	P9WJ02
+AF-Q73XV0-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	Q73XV0
+AF-Q73YC1-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	Q73YC1
+AF-Q7TYP6-F1-model_v4	sir	Assimilatory sulfite reductase [ferredoxin]	Sulphur cycling	Sulphite reduction / sulphide oxidation	Sulphite <-> sulphide	1.8.7.1	K00392	Q7TYP6
+AF-B7J413-F1-model_v4	sdo	Persulfide dioxygenase	Sulphur cycling	Sulphide oxidation	Sulphide -> sulphite	1.13.11.18	K17725	B7J413
+AF-P20161-F1-model_v4	fccB	Sulfide dehydrogenase [flavocytochrome c] flavoprotein chain	Sulphur cycling	Sulphide oxidation	Sulphide -> sulphur	1.8.2.3	K17229	P20161
+AF-Q06530-F1-model_v4	fccB	Sulfide dehydrogenase [flavocytochrome c] flavoprotein chain	Sulphur cycling	Sulphide oxidation	Sulphide -> sulphur	1.8.2.3	K17229	Q06530
+AF-Q06529-F1-model_v4	fccA	Cytochrome subunit of sulfide dehydrogenase	Sulphur cycling	Sulphide oxidation	Sulphide -> sulphur	1.8.2.3	K17230	Q06529
+AF-O67931-F1-model_v4	sqr	Sulfide-quinone reductase	Sulphur cycling	Sulphide oxidation	Sulphide(n) -> polysulphide(n-2)	1.8.5.4	K17218	O67931
+AF-Q7ZAG8-F1-model_v4	sqr	Sulfide-quinone reductase	Sulphur cycling	Sulphide oxidation	Sulphide(n) -> polysulphide(n-2)	1.8.5.4	K17218	Q7ZAG8
+AF-P29082-F1-model_v4	sor	Sulfur oxygenase/reductase	Sulphur cycling	Sulphur disproportionation	Sulphur -> sulphide + sulphite	1.13.11.55	K16952	P29082
+AF-D3RNN8-F1-model_v4	soeA	Sulfite dehydrogenase subunit A	Sulphur cycling	Sulphite oxidation	Sulphite -> sulphate	1.8.5.6	K21307	D3RNN8
+AF-D3RNN7-F1-model_v4	soeB	Sulfite dehydrogenase subunit B	Sulphur cycling	Sulphite oxidation	Sulphite -> sulphate	1.8.5.6	K21308	D3RNN7
+AF-D3RNN6-F1-model_v4	soeC	Sulfite dehydrogenase subunit C	Sulphur cycling	Sulphite oxidation	Sulphite -> sulphate	1.8.5.6	K21309	D3RNN6
+AF-P98004-F1-model_v4	soxB	SoxB protein	Sulphur cycling	Thiosulphate oxidation	Thiosulphate -> sulphate	3.1.6.20	K17224	P98004
+AF-P72177-F1-model_v4	soxB	SoxB protein	Sulphur cycling	Thiosulphate oxidation	Thiosulphate -> sulphate	3.1.6.20	K17224	P72177
+AF-Q9K4M4-F1-model_v4	soxA	SoxA protein	Sulphur cycling	Thiosulphate oxidation	Thiosulphate -> sulphate	2.8.5.2	K17222	Q9K4M4
+AF-Q9LCV0-F1-model_v4	soxX	SoxX protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	2.8.5.2	K17223	Q9LCV0
+AF-D3RVS6-F1-model_v4	soxX	SoxX protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	2.8.5.2	K17223	D3RVS6
+AF-Q9LCU9-F1-model_v4	soxY	SoxY protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	-	K17226	Q9LCU9
+AF-D3RVA1-F1-model_v4	soxY	SoxY protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	-	K17226	D3RVA1
+AF-D3RVA2-F1-model_v4	soxZ	SoxZ protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	-	K17227	D3RVA2
+AF-Q9LCU8-F1-model_v4	soxZ	SoxZ protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	-	K17227	Q9LCU8
+AF-P39480-F1-model_v4	soxC	SoxC protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	-	K24008	P39480
+AF-A0A2S0MVF3-F1-model_v4	soxC	SoxC protein	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	-	K17225	A0A2S0MVF3
+AF-O07819-F1-model_v4	soxD	Apocytochrome c	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	1.8.2.6	K22622	O07819
+AF-P39477-F1-model_v4	soxD	Apocytochrome c	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	1.8.2.6	K22622	P39477
+AF-P37600-F1-model_v4	phsA	Thiosulfate reductase molybdopterin-containing subunit PhsA	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	1.8.5.5	K08352	P37600
+AF-P0A1I1-F1-model_v4	phsB	Thiosulfate reductase electron transfer subunit PhsB	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	1.8.5.5	K08353	P0A1I1
+AF-P37602-F1-model_v4	phsC	Thiosulfate reductase cytochrome B subunit PhsC	Sulphur cycling	Thiosulphate disproportionation	Thiosulphate <-> sulphite + sulphide	1.8.5.5	K08354	P37602
+AF-Q8NKK1-F1-model_v4	sreA	Sulfur reductase molybdopterin subunit	Sulphur cycling	Sulphur reduction	Sulphur -> sulphide	1.12.98.4	K17219	Q8NKK1
+AF-Q8NKT6-F1-model_v4	sreB	Sulfur reductase FeS subunit	Sulphur cycling	Sulphur reduction	Sulphur -> sulphide	1.12.98.4	K17220	Q8NKT6
+AF-Q8NKT5-F1-model_v4	sreC	Sulfur reductase membrane anchor	Sulphur cycling	Sulphur reduction	Sulphur -> sulphide	1.12.98.4	K17221	Q8NKT5
+AF-P37610-F1-model_v4	tauD	Taurine dioxygenase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.14.11.17	K03119	P37610
+AF-Q88RA3-F1-model_v4	tauD	Taurine dioxygenase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.14.11.17	K03119	Q88RA3
+AF-P80644-F1-model_v4	ssuE	NADPH-dependent FMN reductase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.5.1.38	K00299	P80644
+AF-O85762-F1-model_v4	ssuE	NADPH-dependent FMN reductase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.5.1.38	K00299	O85762
+AF-Q88R97-F1-model_v4	ssuE	NADPH-dependent FMN reductase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.5.1.38	K00299	Q88R97
+AF-D2TDP0-F1-model_v4	ssuD	Alkanesulfonate monooxygenase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.14.14.5	K04091	D2TDP0
+AF-Q9X404-F1-model_v4	msmA	Methanesulfonate monooxygenase hydroxylase subunit alpha	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.14.13.111	K16968	Q9X404
+AF-Q9X405-F1-model_v4	msmB	Methanesulfonate monooxygenase hydroxylase subunit beta	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	1.14.13.111	K16969	Q9X405
+AF-P76316-F1-model_v4	dcyD	D-cysteine desulfhydrase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	4.4.1.15	K05396	P76316
+AF-O69652-F1-model_v4	cds	L-cysteine desulfhydrase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	4.4.1.1	K22207	O69652
+AF-A5U908-F1-model_v4	cds	L-cysteine desulfhydrase	Sulphur cycling	Organic S mineralisation	Organic S mineralisation	4.4.1.1	K22207	A5U908
+AF-P16685-F1-model_v4	phnG	Carbon-phosphorus lyase core complex subunit PhnG	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	2.7.8.37	K06166	P16685
+AF-Q52984-F1-model_v4	phnG	Carbon-phosphorus lyase core complex subunit PhnG	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	2.7.8.37	K06166	Q52984
+AF-P16686-F1-model_v4	phnH	Carbon-phosphorus lyase core complex subunit PhnH	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	2.7.8.37	K06165	P16686
+AF-P16687-F1-model_v4	phnI	Carbon-phosphorus lyase core complex subunit PhnI	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	2.7.8.37	K06164	P16687
+AF-P16679-F1-model_v4	phnL	Carbon-phosphorus lyase core complex subunit PhnL	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	2.7.8.37	K05780	P16679
+AF-P16688-F1-model_v4	phnJ	Carbon-phosphorus lyase core complex subunit PhnJ	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	4.7.1.1	K06163	P16688
+AF-P16689-F1-model_v4	phnM	RPnTP hydrolase	Phosphorus cycling	Organic P mineralisation	Organophosphonate degradation	3.6.1.63	K06162	P16689
+AF-O00093-F1-model_v4	phyA	Phytase PhyA	Phosphorus cycling	Organic P mineralisation	Phytate degradation	3.1.3.-; 3.1.3.8	K01083	O00093
+AF-P07102-F1-model_v4	appA	Phytase AppA	Phosphorus cycling	Organic P mineralisation	Phytate degradation	3.1.3.-; 3.6.1.-	K01093	P07102
+AF-P34754-F1-model_v4	phyB	3-phytase	Phosphorus cycling	Organic P mineralisation	Phytate degradation	3.1.3.8	K01083	P34754
+AF-P81440-F1-model_v4	phyB	3-phytase	Phosphorus cycling	Organic P mineralisation	Phytate degradation	3.1.3.8	K01083	P81440
+AF-P42094-F1-model_v4	phyC	3-phytase	Phosphorus cycling	Organic P mineralisation	Phytate degradation	3.1.3.8	K01083	P42094
+AF-K4LAH1-F1-model_v4	phoA	Alkaline phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	K01077	K4LAH1
+AF-Q05205-F1-model_v4	phoA	Alkaline phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	K01077	Q05205
+AF-P19406-F1-model_v4	phoA	Alkaline phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	K01077	P19406
+AF-P35482-F1-model_v4	phoA	Alkaline phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	K01077	P35482
+AF-P42251-F1-model_v4	phoD	Alkaline phosphatase phoD	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	K01113	P42251
+AF-A1YYW7-F1-model_v4	phoK	Alkaline phosphatase PhoK	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	-	A1YYW7
+AF-Q9KJX5-F1-model_v4	pafA	Alkaline phosphatase PafA	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.1	-	Q9KJX5
+AF-Q6MWZ7-F1-model_v4	gpm2	Acid phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.11; 3.1.3.2	-	Q6MWZ7
+AF-C9R7B6-F1-model_v4	aphA	Acid phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.2	K03788	C9R7B6
+AF-P26975-F1-model_v4	aphA	Acid phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.2	K03788	P26975
+AF-P56527-F1-model_v4	aphA	Acid phosphatase	Phosphorus cycling	Organic P mineralisation	Phosphate ester degradation	3.1.3.2	K03788	P56527
+AF-O53361-F1-model_v4	sapM	Phosphatidylinositol-3-phosphatase	Phosphorus cycling	Organic P mineralisation	Phospolipid degradation	3.1.3.2; 3.1.3.64	K21302	O53361
+AF-A4TE29-F1-model_v4	ppk	Polyphosphate kinase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	2.7.4.1	K00937	A4TE29
+AF-Q7ULJ4-F1-model_v4	ppk	Polyphosphate kinase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	2.7.4.1	K00937	Q7ULJ4
+AF-Q93AK9-F1-model_v4	ppk	Polyphosphate kinase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	2.7.4.1	K00937	Q93AK9
+AF-Q8NM65-F1-model_v4	ppk	Polyphosphate kinase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	2.7.4.1	K00937	Q8NM65
+AF-Q8FMF8-F1-model_v4	ppa	Inorganic pyrophosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.1	K01507	Q8FMF8
+AF-Q3KKS0-F1-model_v4	ppa	Inorganic pyrophosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.1	K01507	Q3KKS0
+AF-Q8XIQ9-F1-model_v4	ppaC	Manganese-dependent inorganic pyrophosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.1	K01507	Q8XIQ9
+AF-O29502-F1-model_v4	ppaC	Manganese-dependent inorganic pyrophosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.1	K01507	O29502
+AF-Q9WZ56-F1-model_v4	ppaC	Manganese-dependent inorganic pyrophosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.1	K01507	Q9WZ56
+AF-Q8R821-F1-model_v4	ppaX	Pyrophosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.1	K06019	Q8R821
+AF-Q9S605-F1-model_v4	ppx	Exopolyphosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.11	K01514	Q9S605
+AF-P44828-F1-model_v4	ppx	Exopolyphosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.11	K01514	P44828
+AF-P38698-F1-model_v4	ppx	Exopolyphosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.11	K01514	P38698
+AF-O14094-F1-model_v4	ppx	Exopolyphosphatase	Phosphorus cycling	Inorganic P solubilisation	Inorganic phosphate polymer hydrolosis	3.6.1.11	K01514	O14094
+AF-Q9Z3R2-F1-model_v4	rhbA	diaminobutyrate--2-oxoglutarate transaminase	Iron cycling	Siderophore biosynthesis	Rhizobactin	2.6.1.76	-	Q9Z3R2
+AF-Q9Z3R1-F1-model_v4	rhbB	L-2,4-diaminobutyrate decarboxylase	Iron cycling	Siderophore biosynthesis	Rhizobactin	4.1.1.86	-	Q9Z3R1
+AF-Q9Z3Q8-F1-model_v4	rhbE	1,3-diaminopropane N-monooxygenase	Iron cycling	Siderophore biosynthesis	Rhizobactin	1.14.13.-	-	Q9Z3Q8
+AF-Q9Z3Q9-F1-model_v4	rhbD	N-(3-aminopropyl)hydroxylamine N-acetyltransferase	Iron cycling	Siderophore biosynthesis	Rhizobactin	2.3.1.-	-	Q9Z3Q9
+AF-Q9Z3R0-F1-model_v4	rhbC	N-(3-aminopropyl)-N-hydroxyacetamide--citrate ligase	Iron cycling	Siderophore biosynthesis	Rhizobactin	6.3.2.-	-	Q9Z3R0
+AF-Q9Z3Q7-F1-model_v4	rhbF	rhizobactin 1021 core synthase	Iron cycling	Siderophore biosynthesis	Rhizobactin	6.3.2.-	-	Q9Z3Q7
+AF-Q9I194-F1-model_v4	pvdQ	acyl-homoserine lactone deacylase precursor	Iron cycling	Siderophore biosynthesis	Pyoverdine	3.5.1.97	K07116	Q9I194
+AF-Q9I188-F1-model_v4	pvdP	ferribactin monooxygenase	Iron cycling	Siderophore biosynthesis	Pyoverdine	1.14.18.-	-	Q9I188
+AF-Q9I185-F1-model_v4	pvdO	dihydropyoverdine dehydrogenase	Iron cycling	Siderophore biosynthesis	Pyoverdine	-	-	Q9I185
+AF-Q9HWG4-F1-model_v4	pchF	Non-ribosomal peptide synthase PchF	Iron cycling	Siderophore biosynthesis	Pyochelin	6.2.1.69	K12240	Q9HWG4
+AF-Q9HWG5-F1-model_v4	pchG	Hydroxyphenyl-4,2-bis-thiazoline reductase	Iron cycling	Siderophore biosynthesis	Pyochelin	-	K12241	Q9HWG5
+AF-P45745-F1-model_v4	dhbF	apo-DhbF protein	Iron cycling	Siderophore biosynthesis	Bacillibactin	2.3.1.-:; 6.2.1.70; 6.2.1.66; 6.3.2.-; 6.2.1.61		P45745
+AF-P10378-F1-model_v4	entE	2,3-dihydroxybenzoate-[aryl-carrier protein] ligase	Iron cycling	Siderophore biosynthesis	Enterobactin	6.3.2.14; 6.2.1.71	-	P10378
+AF-P11454-F1-model_v4	entF	apo-serine activating enzyme	Iron cycling	Siderophore biosynthesis	Enterobactin	6.3.2.14; 6.2.1.72; 2.7.8.7; 3.1.4.14; 2.7.8.7	K02364	P11454
+AF-A0A0F7W4I6-F1-model_v4	desA	L-lysine decarboxylase	Iron cycling	Siderophore biosynthesis	Desferrioxamine	4.1.1.18	K01582	A0A0F7W4I6
+AF-B5HNG5-F1-model_v4	desB	cadaverine hydroxylase	Iron cycling	Siderophore biosynthesis	Desferrioxamine	1.14.13.59	-	B5HNG5
+AF-Q1IAL0-F1-model_v4	pmsD	PmsD non-ribosomal peptide synthase	Iron cycling	Siderophore biosynthesis	Pseudomonine	6.2.1.70	-	Q1IAL0
+AF-Q8ECU3-F1-model_v4	pubA	Putrescine N-hydroxylase	Iron cycling	Siderophore biosynthesis	Putrebactin	1.14.13.252	K27501	Q8ECU3
+AF-Q0HWI8-F1-model_v4	pubB	Hydroxyputrescine acyl transferase	Iron cycling	Siderophore biosynthesis	Putrebactin	2.3.1.-	-	Q0HWI8
+AF-Q0HWI9-F1-model_v4	pubC	Putrebactin synthase	Iron cycling	Siderophore biosynthesis	Putrebactin	6.3.2.63	-	Q0HWI9
+AF-Q93AU0-F1-model_v4	acsA	Achromobactin synthetase protein A	Iron cycling	Siderophore biosynthesis	Achromobactin	6.3.2.-	-	Q93AU0
+AF-O05819-F1-model_v4	mbtF	Mycobactin non-ribosomal peptide synthase MbtF	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K04792	O05819
+AF-I6Y0L1-F1-model_v4	mbtE	Mycobactin non-ribosomal peptide synthase MbtE	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K04789	I6Y0L1
+AF-P71719-F1-model_v4	mbtD	Mycobactin polyketide synthetase MbtD	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K04791	P71719
+AF-P71718-F1-model_v4	mbtC	Mycobactin polyketide synthetase MbtC	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K04790	P71718
+AF-P9WQ63-F1-model_v4	mbtB	Mycobactin phenyloxazoline synthase MbtB	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K04788	P9WQ63
+AF-P71716-F1-model_v4	mbtA	Mycobactin salicyl-AMP ligase MbtA	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K04787	P71716
+AF-P9WIP5-F1-model_v4	mbtH	Mycobactin adenylation domain accessory protein MbtH	Iron cycling	Siderophore biosynthesis	Mycobactin	2.3.1.-	K05375	P9WIP5
+AF-Q44740-F1-model_v4	alcA	Putrescine N-hydroxylase	Iron cycling	Siderophore biosynthesis	Alcaligin	1.14.13.252	K27501	Q44740
+AF-P94254-F1-model_v4	alcB	Hydroxyputrescine acyl transferase	Iron cycling	Siderophore biosynthesis	Alcaligin	2.3.1.-	-	P94254
+AF-O52833-F1-model_v4	alcE	Hydroxy-succinyl-putrescine hydroxylase	Iron cycling	Siderophore biosynthesis	Alcaligin	-	-	O52833
+AF-P94255-F1-model_v4	alcC	Alcaligin synthetase	Iron cycling	Siderophore biosynthesis	Alcaligin	6.3.2.-	-	P94255
+AF-Q9WY68-F1-model_v4	acdS	ACC deaminase	Plant-microbe interactions	Ethylene suppression	ACC deaminase activity	3.5.99.7	K01505	Q9WY68
+AF-Q04564-F1-model_v4	iaaM	Tryptophan monooxygenase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAM pathway)	1.13.12.3	K00466	Q04564
+AF-P06617-F1-model_v4	iaaM	Tryptophan monooxygenase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAM pathway)	1.13.12.3	K00466	P06617
+AF-O50173-F1-model_v4	iaaH	Indole-3-acetyl-aspartic acid hydrolase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAM pathway)	3.5.1.134	K25379	O50173
+AF-P23234-F1-model_v4	idpC	Indole-3-pyruvate decarboxylase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IPA pathway)	4.1.1.74	K04103	P23234
+AF-P51852-F1-model_v4	idpC	Indole-3-pyruvate decarboxylase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IPA pathway)	4.1.1.74	K04103	P51852
+AF-Q8GAK7-F1-model_v4	aldH	Aldehyde dehydrogenase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IPA + TAM pathways)	1.2.1.3	K00128; K00149; K14085	Q8GAK7
+AF-A7B1V0-F1-model_v4	tdc	Tryptophan decarboxylase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (TAM pathway)	4.1.1.105	K22433	A7B1V0
+AF-J7SZ64-F1-model_v4	tdc	Tryptophan decarboxylase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (TAM pathway)	4.1.1.105	K22433	J7SZ64
+AF-Q07121-F1-model_v4	maoA	Amine oxidase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (TAM pathway)	1.4.3.21	K00276	Q07121
+AF-B2JQY2-F1-model_v4	nit	Nitrilase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAN pathway)	3.5.5.1	K01501	B2JQY2
+AF-P10045-F1-model_v4	nit	Nitrilase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAN pathway)	3.5.5.1	K01501	P10045
+AF-Q6RWK4-F1-model_v4	nit	Nitrilase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAN pathway)	3.5.5.1	K01501	Q6RWK4
+AF-B1XJV9-F1-model_v4	ggps	Geranylgeranyl diphosphate synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	2.5.1.1; 2.5.1.10; 2.5.1.29	K00804; K13789; K13787	B1XJV9
+AF-Q5KSN5-F1-model_v4	cps	ent-Copalyl diphosphate synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	5.5.1.13	K04120	Q5KSN5
+AF-A0A0U4CDK4-F1-model_v4	ks	ent-Kaurene synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	4.2.3.19	K04120	A0A0U4CDK4
+AF-O13284-F1-model_v4	cps/ks	Bifunctional ent-copalyl diphosphate/ent-kaurene synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	5.5.1.13; 4.2.3.19	K20657	O13284
+AF-Q93ZB2-F1-model_v4	ko	ent-Kaurene oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.86	K04122; K21292	Q93ZB2
+AF-A0A0G2RKY1-F1-model_v4	ko	ent-Kaurene oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.86	K04122; K21292	A0A0G2RKY1
+AF-Q5VRM7-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	Q5VRM7
+AF-Q9C5Y2-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	Q9C5Y2
+AF-O23051-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	O23051
+AF-Q9AXH9-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	Q9AXH9
+AF-Q9C826-F1-model_v4	xan	Xanthoxin dehydrogenase	Plant-microbe interactions	Phytohormone production	Abscisic acid production	1.1.1.288	K09841	Q9C826
+AF-Q7G9P4-F1-model_v4	aao	Abscisic-aldehyde oxidase	Plant-microbe interactions	Phytohormone production	Abscisic acid production	1.2.3.14	K09842	Q7G9P4
+AF-Q47851-F1-model_v4	ipt	adenylate dimethylallyltransferase	Plant-microbe interactions	Phytohormone production	trans-Zeatin production	2.5.1.27	K10760	Q47851
+AF-B2HS63-F1-model_v4	log	Cytokinin riboside 5'-monophosphate phosphoribohydrolase	Plant-microbe interactions	Phytohormone production	trans-Zeatin production	3.2.2.-	K22522	B2HS63
+AF-Q9FF18-F1-model_v4	cyp735A	Cytokinin trans-hydroxylase	Plant-microbe interactions	Phytohormone production	trans-Zeatin production	1.14.13.-	K10717	Q9FF18
+AF-Q9ZW95-F1-model_v4	cyp735A	Cytokinin trans-hydroxylase	Plant-microbe interactions	Phytohormone production	trans-Zeatin production	1.14.13.-	K10717	Q9ZW95
+AF-Q9FEX0-F1-model_v4	opr	12-oxophytodienoate reductase	Plant-microbe interactions	Phytohormone production	Jasmonic acid production	1.3.1.42	K05894	Q9FEX0
+AF-O65201-F1-model_v4	acox	acyl-coenzyme A oxidase	Plant-microbe interactions	Phytohormone production	Jasmonic acid production	1.3.3.6	K00232	O65201
+AF-Q9DBM2-F1-model_v4	ehhadh	enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase	Plant-microbe interactions	Phytohormone production	Jasmonic acid production	4.2.1.17; 5.3.3.8; 1.1.1.35	K07514	Q9DBM2
+AF-Q22100-F1-model_v4	kat	Acetyl-CoA acetyltransferase	Plant-microbe interactions	Phytohormone production	Jasmonic acid production	2.3.1.16	K07513	Q22100
+AF-Q940V4-F1-model_v4	br6ox	Brassinolide synthase	Plant-microbe interactions	Phytohormone production	Brassinolide production	1.14.14.180; 1.14.14.179	K12640; K25959	Q940V4
+AF-Q50LE0-F1-model_v4	br6ox	Brassinolide synthase	Plant-microbe interactions	Phytohormone production	Brassinolide production	1.14.14.180; 1.14.14.179	K12640; K25959	Q50LE0
+AF-P69908-F1-model_v4	gadA	Glutamate decarboxylase alpha	Plant-microbe interactions	GABA production	GABA production	4.1.1.15	K01580 	P69908
+AF-P69910-F1-model_v4	gadB	Glutamate decarboxylase beta	Plant-microbe interactions	GABA production	GABA production	4.1.1.15	K01580 	P69910
+AF-O30417-F1-model_v4	gadC	Glutamate–GABA antiporter	Plant-microbe interactions	GABA production	GABA production	-	K20265	O30417
+AF-P24169-F1-model_v4	speC	Ornithine decarboxylase	Plant-microbe interactions	Polyamine production	Putrescine production	4.1.1.17	K01581	P24169
+AF-Q8ZHG8-F1-model_v4	speA	Arginine decarboxylase	Plant-microbe interactions	Polyamine production	Putrescine production	4.1.1.19	K01585	Q8ZHG8
+AF-P70999-F1-model_v4	speB	Agmatinase	Plant-microbe interactions	Polyamine production	Putrescine production	3.5.3.11	K01480	P70999
+AF-Q8DW17-F1-model_v4	aguA	Agmatine deiminase	Plant-microbe interactions	Polyamine production	Putrescine production	3.5.3.12	K10536	Q8DW17
+AF-Q8VYF5-F1-model_v4	aguB	N-carbamoylputrescine amidase	Plant-microbe interactions	Polyamine production	Putrescine production	3.5.1.53	K12251	Q8VYF5
+AF-Q9XGI9-F1-model_v4	aguB	N-carbamoylputrescine amidase	Plant-microbe interactions	Polyamine production	Putrescine production	3.5.1.53	K12251	Q9XGI9
+AF-Q93XI4-F1-model_v4	aguB	N-carbamoylputrescine amidase	Plant-microbe interactions	Polyamine production	Putrescine production	3.5.1.53	K12251	Q93XI4
+AF-Q3HVN1-F1-model_v4	aguB	N-carbamoylputrescine amidase	Plant-microbe interactions	Polyamine production	Putrescine production	3.5.1.53	K12251	Q3HVN1
+AF-B2USZ6-F1-model_v4	speE	Spermidine synthase	Plant-microbe interactions	Polyamine production	Spermidine production	2.5.1.16	K00797	B2USZ6
+AF-Q7UWD1-F1-model_v4	speE	Spermidine synthase	Plant-microbe interactions	Polyamine production	Spermidine production	2.5.1.16	K00797	Q7UWD1
+AF-Q7NQK7-F1-model_v4	speE	Spermidine synthase	Plant-microbe interactions	Polyamine production	Spermidine production	2.5.1.16	K00797	Q7NQK7
+AF-Q8EAX8-F1-model_v4	speE	Spermidine synthase	Plant-microbe interactions	Polyamine production	Spermidine production	2.5.1.16	K00797	Q8EAX8
+AF-Q81X05-F1-model_v4	speE	Spermidine synthase	Plant-microbe interactions	Polyamine production	Spermidine production	2.5.1.16	K00797	Q81X05
+AF-Q9HV34-F1-model_v4	speE	Spermidine synthase	Plant-microbe interactions	Polyamine production	Spermidine production	2.5.1.16	K00797	Q9HV34
+AF-B8G177-F1-model_v4	speD	S-adenosylmethionine decarboxylase	Plant-microbe interactions	Polyamine production	Spermidine production	4.1.1.50	K01611	B8G177
+AF-Q65G98-F1-model_v4	speH	S-adenosylmethionine decarboxylase	Plant-microbe interactions	Polyamine production	Spermidine production	4.1.1.50	K01611	Q65G98
+AF-P0DPE4-F1-model_v4	cansdh	Carboxynorspermidine dehydrogenase	Plant-microbe interactions	Polyamine production	Spermidine production	1.5.1.43	K13746	P0DPE4
+AF-Q9KRL3-F1-model_v4	cansdh	Carboxynorspermidine dehydrogenase	Plant-microbe interactions	Polyamine production	Spermidine production	1.5.1.43	K13746	Q9KRL3
+AF-Q5QCP2-F1-model_v4	nspC	Carboxynorspermidine decarboxylase	Plant-microbe interactions	Polyamine production	Spermidine production	4.1.1.96	K13747	Q5QCP2
+AF-P24154-F1-model_v4	nodA	Nodulation protein A	Plant-microbe interactions	Rhizobia-legume symbiosis	Root nodulation	2.3.1.-	K14658	P24154
+AF-Q07739-F1-model_v4	nodA	Nodulation protein A	Plant-microbe interactions	Rhizobia-legume symbiosis	Root nodulation	2.3.1.-	K14658	Q07739
+AF-P50354-F1-model_v4	nodB	Chitooligosaccharide deacetylase	Plant-microbe interactions	Rhizobia-legume symbiosis	Root nodulation	3.5.1.-	K14659	P50354
+AF-P50357-F1-model_v4	nodC	N-acetylglucosaminyltransferase	Plant-microbe interactions	Rhizobia-legume symbiosis	Root nodulation	2.4.1.-	K14666	P50357
+AF-Q52838-F1-model_v4	nodD	Nodulation protein D 	Plant-microbe interactions	Rhizobia-legume symbiosis	Root nodulation		K14657	Q52838
+AF-P14175-F1-model_v4	proV	Glycine betaine/proline betaine transport system ATP-binding protein ProV	Osmotic stress tolerance	Osmoprotectant uptake	Glycine betaine / proline uptake	7.6.2.9	K02000	P14175
+AF-P14176-F1-model_v4	proW	Glycine betaine/proline betaine transport system permease protein ProW	Osmotic stress tolerance	Osmoprotectant uptake	Glycine betaine / proline uptake	-	K02001	P14176
+AF-P17327-F1-model_v4	proW	Glycine betaine/proline betaine transport system permease protein ProW	Osmotic stress tolerance	Osmoprotectant uptake	Glycine betaine / proline uptake	-	K02001	P17327
+AF-P0AFM2-F1-model_v4	proX	Glycine betaine/proline betaine-binding periplasmic protein	Osmotic stress tolerance	Osmoprotectant uptake	Glycine betaine / proline uptake	-	K02002	P0AFM2
+AF-P0C0L7-F1-model_v4	proP	Proline/betaine transporter	Osmotic stress tolerance	Osmoprotectant uptake	Glycine betaine / proline uptake	-	K03762	P0C0L7
+AF-Q8L164-F1-model_v4	treP	Alpha,alpha-trehalose phosphorylase	Osmotic stress tolerance	Osmoprotectant uptake	Trehalose uptake	2.4.1.64	K05342	Q8L164
+AF-P39794-F1-model_v4	treB	Trehalose permease IIC component	Osmotic stress tolerance	Osmoprotectant uptake	Trehalose uptake	2.7.1.201	K02819	P39794
+AF-P0ABC9-F1-model_v4	betT	High-affinity choline transport protein	Osmotic stress tolerance	Osmoprotectant biosynthesis	Choline uptake (glycine betaine precusor)	-	K02168	P0ABC9
+AF-Q45461-F1-model_v4	opuBB	Choline transport system permease protein OpuBB	Osmotic stress tolerance	Osmoprotectant biosynthesis	Choline uptake (glycine betaine precusor)	-	-	Q45461
+AF-Q7X2H8-F1-model_v4	betA	Choline oxidase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Glycine betaine biosynthesis	1.1.3.17	K17755	Q7X2H8
+AF-Q8UH56-F1-model_v4	betB	Betaine aldehyde dehydrogenase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Glycine betaine biosynthesis	1.2.1.8	K00130	Q8UH56
+AF-Q83WC4-F1-model_v4	bsmA	Glycine/sarcosine N-methyltransferase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Glycine betaine biosynthesis	2.1.1.156	K18896	Q83WC4
+AF-Q83WC3-F1-model_v4	bsmB	Sarcosine/dimethylglycine N-methyltransferase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Glycine betaine biosynthesis	2.1.1.157	K18897	Q83WC3
+AF-Q93RW2-F1-model_v4	ectA	L-2,4-diaminobutyric acid acetyltransferase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Ectoine biosynthesis	2.3.1.178	K06718	Q93RW2
+AF-Q9KLC2-F1-model_v4	ectB	Diaminobutyrate--2-oxoglutarate transaminase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Ectoine biosynthesis	2.6.1.76	K00836	Q9KLC2
+AF-E1V7V7-F1-model_v4	ectB	Diaminobutyrate--2-oxoglutarate transaminase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Ectoine biosynthesis	2.6.1.76	K00836	E1V7V7
+AF-Q89TD1-F1-model_v4	ectC	L-ectoine synthase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Ectoine biosynthesis	4.2.1.108	K06720	Q89TD1
+AF-P55612-F1-model_v4	otsA	Trehalose-6-phosphate synthase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Trehalose biosynthesis	2.4.1.15	K00697	P55612
+AF-G4RK44-F1-model_v4	otsA	Trehalose-6-phosphate synthase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Trehalose biosynthesis	2.4.1.15; 3.1.3.12	K16055	G4RK44
+AF-Q73U90-F1-model_v4	otsB	Trehalose-phosphate phosphatase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Trehalose biosynthesis	3.1.3.12	K01087	Q73U90
+AF-Q9HIW7-F1-model_v4	otsB	Trehalose-6-phosphate phosphatase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Trehalose biosynthesis	3.1.3.12	K01087	Q9HIW7
+AF-P9WQ22-F1-model_v4	treZ	Malto-oligosyltrehalose trehalohydrolase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Trehalose biosynthesis	3.2.1.141	K01236	P9WQ22
+AF-P9WQ20-F1-model_v4	treY	Maltooligosyl trehalose synthase	Osmotic stress tolerance	Osmoprotectant biosynthesis	Trehalose biosynthesis	5.4.99.15	K06044	P9WQ20
