@@ -36,7 +36,7 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=. -DENABLE_CUDA=1 -DCMAK
 make -j8
 make install
 ```
-The path to the Foldseek binary directory can be set as an evironemtnal variable before running ```EcoFoldDB_annotate.sh```:
+The path to the Foldseek binary directory can be set as an evironmental variable before running ```EcoFoldDB_annotate.sh```:
 ```
 export PATH=/full/path/to/foldseek/build/bin/:$PATH
 ```
