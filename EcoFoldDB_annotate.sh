@@ -12,7 +12,7 @@ usage() {
     echo
     echo "Optional parameters:"
     echo "  --foldseek_bin     Path to directory containing foldseek binary"
-    echo "  --prefilter-mode   Prefilter mode (default: 0)"
+    echo "  --prefilter-mode   Prefilter mode. Set to 1 for GPU-accelerated searching (default: 0)"
     echo "  -h, --help         Show this help message"
     exit 1
 }
