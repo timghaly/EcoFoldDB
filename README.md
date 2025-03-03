@@ -40,7 +40,7 @@ make install
 ```
 
 
-For other Foldseek installation options, including non-GPU compatible Foldseek or via conda, see the [Foldseek installation instructions](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
+For other Foldseek installation options, including non-GPU compatible Foldseek, or conda installation, see the [Foldseek installation instructions](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
 
 
 The path to the Foldseek binary directory can be set as an evironmental variable before running ```EcoFoldDB_annotate.sh```:
