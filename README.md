@@ -53,12 +53,13 @@ foldseek databases ProstT5 ProstT5_dir tmp --remove-tmp-files 1
 
 # Usage
 ```
-./EcoFoldDB_annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] INPUT_FILE
+./EcoFoldDB_annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] [-o OUTDIR] INPUT_FILE
 
 Mandatory parameters:
 --EcoFoldDB_dir    Full path to EcoFoldDB_v1.1 directory
 --ProstT5_dir      Full path to ProstT5 model directory
 --gpu              Use GPU (1) or CPU (0)
+INPUT_FILE         Input FASTA file to process
 
 Optional parameters:
 --foldseek_bin     Path to directory containing foldseek binary
@@ -66,6 +67,7 @@ Optional parameters:
 -e                 E-value threshold (default: 1e-15)
 --qcov             Minimum query coverage (default: 0.8)
 --tcov             Minimum target coverage (default: 0.8)
+-o                 Output directory to be created (default: EcoFoldDB_annotate)
 -h, --help         Show this help message
 
 
