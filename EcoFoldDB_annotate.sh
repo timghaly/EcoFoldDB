@@ -5,7 +5,7 @@ usage() {
     echo "Usage: $0 --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] INPUT_FILE"
     echo
     echo "Mandatory parameters:"
-    echo "  --EcoFoldDB_dir    Full path to EcoFoldDB directory"
+    echo "  --EcoFoldDB_dir    Full path to EcoFoldDB_v1.1 directory"
     echo "  --ProstT5_dir      Full path to ProstT5 model directory"
     echo "  --gpu              Use GPU (1) or CPU (0)"
     echo "  INPUT_FILE         Input FASTA file to process"
