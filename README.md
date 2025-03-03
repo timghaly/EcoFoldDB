@@ -45,7 +45,7 @@ The path to the foldseek binary directory can be provided to EcoFoldDB_annotate.
 ``` --foldseek_bin ```
 
 
-### Download ProstT5 protein langauage model using Foldseek
+### Download ProstT5 protein language model using Foldseek
 ```
 foldseek databases ProstT5 ProstT5_dir tmp --remove-tmp-files 1
 ```
