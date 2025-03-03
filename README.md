@@ -55,7 +55,7 @@ foldseek databases ProstT5 ProstT5_dir tmp --remove-tmp-files 1
 .\EcoFoldDB_annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] INPUT_FILE"
 
 Mandatory parameters:
---EcoFoldDB_dir    Full path to EcoFoldDB directory
+--EcoFoldDB_dir    Full path to EcoFoldDB_v1.1 directory
 --ProstT5_dir      Full path to ProstT5 model directory
 --gpu              Use GPU (1) or CPU (0)
 
