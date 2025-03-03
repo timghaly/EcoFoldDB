@@ -2,7 +2,7 @@
 set -euo pipefail
 
 usage() {
-    echo "Usage: $0 --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] INPUT_FILE"
+    echo "Usage: $0 --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] [-o OUTDIR] INPUT_FILE"
     echo
     echo "Mandatory parameters:"
     echo "  --EcoFoldDB_dir    Full path to EcoFoldDB_v1.1 directory"
@@ -16,6 +16,7 @@ usage() {
     echo "  -e                 E-value threshold (default: 1e-15)"
     echo "  --qcov             Minimum query coverage (default: 0.8)"
     echo "  --tcov             Minimum target coverage (default: 0.8)"
+    echo "  -o                 Output directory to be created (default: EcoFoldDB_annotate)"
     echo "  -h, --help         Show this help message"
     exit 1
 }
@@ -30,9 +31,10 @@ foldseek_bin=""
 evalue="1e-15"
 qcov="0.8"
 tcov="0.8"
+output_dir="EcoFoldDB_annotate"
 
 # Parse command-line arguments
-TEMP=$(getopt -o h,e: --long EcoFoldDB_dir:,ProstT5_dir:,gpu:,prefilter-mode:,foldseek_bin:,qcov:,tcov:,help -n "$0" -- "$@") || usage
+TEMP=$(getopt -o h,e:,o: --long EcoFoldDB_dir:,ProstT5_dir:,gpu:,prefilter-mode:,foldseek_bin:,qcov:,tcov:,help -n "$0" -- "$@") || usage
 eval set -- "$TEMP"
 
 while true; do
@@ -67,6 +69,10 @@ while true; do
             ;;
         --tcov)
             tcov="$2"
+            shift 2
+            ;;
+        -o)
+            output_dir="$2"
             shift 2
             ;;
         -h|--help)
@@ -179,11 +185,18 @@ fi
 name=$(basename "$input_file" | rev | cut -d"." -f2- | rev)
 
 echo "Starting processing for $name"
-mkdir -p EcoFoldDB_annotate/ProstT5_db EcoFoldDB_annotate/results_db
+
+# Create output directory structure
+mkdir "${output_dir}" || { echo "Error: Output directory '${output_dir}' already exists" >&2; exit 1; }
+mkdir "${output_dir}/ProstT5_db" "${output_dir}/results_db" || { 
+    echo "Error: Failed to create subdirectories in '${output_dir}'" >&2
+    exit 1
+}
 
 # Filter input sequences
+# Filter input sequences
 echo "Filtering long sequences..."
-filtered_file="EcoFoldDB_annotate/ProstT5_db/${name}.length_filtered.fasta"
+filtered_file="${output_dir}/ProstT5_db/${name}.length_filtered.fasta"
 
 if ! awk 'BEGIN { header=""; seq=""; total=0 }
     /^>/ {
@@ -225,8 +238,8 @@ fi
 # Create ProstT5 database
 echo "Creating ProstT5 database..."
 if ! foldseek createdb \
-    "EcoFoldDB_annotate/ProstT5_db/${name}.length_filtered.fasta" \
-    "EcoFoldDB_annotate/ProstT5_db/${name}_db" \
+    "${output_dir}/ProstT5_db/${name}.length_filtered.fasta" \
+    "${output_dir}/ProstT5_db/${name}_db" \
     --prostt5-model "$ProstT5_dir" \
     --gpu "$gpu"; then
     echo "Error: Failed to create ProstT5 database" >&2
@@ -236,10 +249,10 @@ fi
 # Search against EcoFoldDB
 echo "Running Foldseek search..."
 if ! foldseek search \
-    "EcoFoldDB_annotate/ProstT5_db/${name}_db" \
+    "${output_dir}/ProstT5_db/${name}_db" \
     "$EcoFoldDB_dir/EcoFoldDB" \
-    "EcoFoldDB_annotate/results_db/${name}_results" \
-    "EcoFoldDB_annotate/results_db/${name}_tmp" \
+    "${output_dir}/results_db/${name}_results" \
+    "${output_dir}/results_db/${name}_tmp" \
     --gpu "$gpu" \
     --prefilter-mode "$prefilter" \
     --remove-tmp-files 1; then
@@ -250,10 +263,10 @@ fi
 # Convert results to text format
 echo "Converting results..."
 if ! foldseek convertalis \
-    "EcoFoldDB_annotate/ProstT5_db/${name}_db" \
+    "${output_dir}/ProstT5_db/${name}_db" \
     "$EcoFoldDB_dir/EcoFoldDB" \
-    "EcoFoldDB_annotate/results_db/${name}_results" \
-    "EcoFoldDB_annotate/results_db/${name}_foldseek_results.txt" \
+    "${output_dir}/results_db/${name}_results" \
+    "${output_dir}/results_db/${name}_foldseek_results.txt" \
     --format-output query,target,evalue,qcov,tcov; then
     echo "Error: Failed to convert results to text format" >&2
     exit 1
@@ -261,16 +274,16 @@ fi
 
 # Process results
 echo "Processing results..."
-if ! awk '!seen[$1]++' "EcoFoldDB_annotate/results_db/${name}_foldseek_results.txt" \
-    > "EcoFoldDB_annotate/results_db/${name}_foldseek_results.Top_Hits.txt"; then
+if ! awk '!seen[$1]++' "${output_dir}/results_db/${name}_foldseek_results.txt" \
+    > "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.txt"; then
     echo "Error: Failed to select top hits" >&2
     exit 1
 fi
 
 if ! awk -F'\t' -v evalue="$evalue" -v qcov="$qcov" -v tcov="$tcov" \
     '$3 < evalue && $4 > qcov && $5 > tcov' \
-    "EcoFoldDB_annotate/results_db/${name}_foldseek_results.Top_Hits.txt" \
-    > "EcoFoldDB_annotate/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt"; then
+    "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.txt" \
+    > "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt"; then
     echo "Error: Failed to filter top hits" >&2
     exit 1
 fi
@@ -278,7 +291,7 @@ fi
 # Attach annotations
 echo "Attaching annotations..."
 if ! printf "query\ttarget\tevalue\tqcov\ttcov\tGene\tProtein\tCategory\tSub-category\tPathway/Activity\tEC\tKO\n" \
-    > "EcoFoldDB_annotate/${name}.ecofolddb_annotations.txt"; then
+    > "${output_dir}/${name}.ecofolddb_annotations.txt"; then
     echo "Error: Failed to create annotations header" >&2
     exit 1
 fi
@@ -286,10 +299,10 @@ fi
 if ! awk -F'\t' 'NR==FNR {lookup[$1] = $2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7"\t"$8; next} 
     $2 in lookup {print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"lookup[$2]}' \
     "$EcoFoldDB_dir/EcoFoldDB_descriptions.txt" \
-    "EcoFoldDB_annotate/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt" \
-    >> "EcoFoldDB_annotate/${name}.ecofolddb_annotations.txt"; then
+    "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt" \
+    >> "${output_dir}/${name}.ecofolddb_annotations.txt"; then
     echo "Error: Failed to attach annotations" >&2
     exit 1
 fi
 
-echo "Processing complete. Results saved in EcoFoldDB_annotate/"
+echo "Processing complete. Results saved in ${output_dir}/"
