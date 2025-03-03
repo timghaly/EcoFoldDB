@@ -36,12 +36,13 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=. -DENABLE_CUDA=1 -DCMAK
 make -j8
 make install
 ```
-The path to the Foldseek binary directory can be set as an evironemtnal variable before running EcoFoldDB_annotate.sh:
+The path to the Foldseek binary directory can be set as an evironemtnal variable before running ```EcoFoldDB_annotate.sh```:
 ```
 export PATH=/full/path/to/foldseek/build/bin/:$PATH
 ```
-OR, 
-The path to the foldseek binary directory can be provided to EcoFoldDB_annotate.sh using the flag:  
+OR
+
+The path to the foldseek binary directory can be provided to ```EcoFoldDB_annotate.sh``` using the flag:  
 ``` --foldseek_bin ```
 
 
@@ -52,7 +53,7 @@ foldseek databases ProstT5 ProstT5_dir tmp --remove-tmp-files 1
 
 # Usage
 ```
-.\EcoFoldDB_annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] INPUT_FILE"
+./EcoFoldDB_annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] INPUT_FILE"
 
 Mandatory parameters:
 --EcoFoldDB_dir    Full path to EcoFoldDB_v1.1 directory
