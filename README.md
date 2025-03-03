@@ -1,5 +1,10 @@
 # EcoFoldDB
-Database and pipeline for protein structure-guided annotations of ecologically relevant functions at the metagenome scale
+Database and pipeline for protein structure-guided annotations of ecologically relevant functions at the metagenome scale.
+
+EcoFoldDB is a database of protein structures that cover microbial functions of ecological relevance including genes involved in:  
+Trace gas oxidation, carbon cycling (e.g., C fixation, C1 metabolism, as well as degradation of complex carbohydrates, polyphenols, aromatic hydrocarbons and fatty acids), nitrogen cycling, sulphur cycling, phosphorus cycling, iron cycling, plant-microbe interactions, and osmotic stress tolerance.
+
+The pipeline ```EcoFoldDB_annotate.sh``` leverages the scalabality of the [ProstT5](https://doi.org/10.1038/s41587-023-01773-0) protein language model and [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations at the metagenome-scale (millions of proteins) without needing to perform protein structure predictions.
 
 # Installation
 
@@ -10,7 +15,7 @@ cd EcoFoldDB
 chmod +x EcoFoldDB_annotate.sh
 ```
 ### Install Foldseek
-Using GPU-compatible Foldseek is highly recommened for metagenome-scale annotations (i.e., millions of proteins).  
+Using GPU-compatible Foldseek is highly recommened for metagenome-scale annotations (i.e., for millions of proteins).  
 Protein sequences are converted directly to a structural database using the ProstT5 protein-structure language model (400-4000x faster than predicting structures with ColabFold).  
 GPU can accelarate inference by one to two orders of magnitude 
 
