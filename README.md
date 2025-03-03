@@ -62,7 +62,7 @@ Mandatory parameters:
 
 Optional parameters:
 --foldseek_bin     Path to directory containing foldseek binary
---prefilter-mode   Foldseek prefilter mode. Set to 1 for GPU-accelerated searching (default: 0)
+--prefilter-mode   Foldseek prefilter mode. Set to 1 for GPU-accelerated search (default: 0)
 -e                 E-value threshold (default: 1e-15)
 --qcov             Minimum query coverage (default: 0.8)
 --tcov             Minimum target coverage (default: 0.8)
