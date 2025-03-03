@@ -12,7 +12,7 @@ usage() {
     echo
     echo "Optional parameters:"
     echo "  --foldseek_bin     Path to directory containing foldseek binary"
-    echo "  --prefilter-mode   Prefilter mode (default: 0)"
+    echo "  --prefilter-mode   Prefilter mode. Set to 1 for GPU-accelerated search (default: 0)"
     echo "  -e                 E-value threshold (default: 1e-15)"
     echo "  --qcov             Minimum query coverage (default: 0.8)"
     echo "  --tcov             Minimum target coverage (default: 0.8)"
