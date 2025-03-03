@@ -73,7 +73,7 @@ Optional parameters:
 
 ```
 # Output
-The main annotation results will be located in the created output directory ```EcoFoldDB_annotate```
+The main annotation results will be located in the created output directory with the file extension ```.ecofolddb_annotations.txt```
 
 # Citations
 
