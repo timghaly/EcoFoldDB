@@ -2,31 +2,37 @@
 set -euo pipefail
 
 usage() {
-    echo "Usage: $0 --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] INPUT_FILE"
+    echo "Usage: $0 --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] INPUT_FILE"
     echo
     echo "Mandatory parameters:"
-    echo "  --EcoFoldDB_dir    Full path to EcoFoldDB_v1.1 directory"
+    echo "  --EcoFoldDB_dir    Full path to EcoFoldDB directory"
     echo "  --ProstT5_dir      Full path to ProstT5 model directory"
     echo "  --gpu              Use GPU (1) or CPU (0)"
     echo "  INPUT_FILE         Input FASTA file to process"
     echo
     echo "Optional parameters:"
     echo "  --foldseek_bin     Path to directory containing foldseek binary"
-    echo "  --prefilter-mode   Prefilter mode. Set to 1 for GPU-accelerated searching (default: 0)"
+    echo "  --prefilter-mode   Prefilter mode (default: 0)"
+    echo "  -e                 E-value threshold (default: 1e-15)"
+    echo "  --qcov             Minimum query coverage (default: 0.8)"
+    echo "  --tcov             Minimum target coverage (default: 0.8)"
     echo "  -h, --help         Show this help message"
     exit 1
 }
 
-# Initialize variables
+# Initialize variables with defaults
 EcoFoldDB_dir=""
 ProstT5_dir=""
 gpu=""
 prefilter=0
 input_file=""
 foldseek_bin=""
+evalue="1e-15"
+qcov="0.8"
+tcov="0.8"
 
 # Parse command-line arguments
-TEMP=$(getopt -o h --long EcoFoldDB_dir:,ProstT5_dir:,gpu:,prefilter-mode:,foldseek_bin:,help -n "$0" -- "$@") || usage
+TEMP=$(getopt -o h,e: --long EcoFoldDB_dir:,ProstT5_dir:,gpu:,prefilter-mode:,foldseek_bin:,qcov:,tcov:,help -n "$0" -- "$@") || usage
 eval set -- "$TEMP"
 
 while true; do
@@ -49,6 +55,18 @@ while true; do
             ;;
         --foldseek_bin)
             foldseek_bin="$2"
+            shift 2
+            ;;
+        -e)
+            evalue="$2"
+            shift 2
+            ;;
+        --qcov)
+            qcov="$2"
+            shift 2
+            ;;
+        --tcov)
+            tcov="$2"
             shift 2
             ;;
         -h|--help)
@@ -135,6 +153,23 @@ fi
 
 if ! ls "${ProstT5_dir}"/*.gguf &> /dev/null; then
     echo "Error: No .gguf model file found in ProstT5 directory '${ProstT5_dir}'" >&2
+    exit 1
+fi
+
+# Validate coverage values are between 0 and 1
+if (( $(echo "$qcov < 0 || $qcov > 1" | bc -l) )); then
+    echo "Error: --qcov must be between 0 and 1" >&2
+    exit 1
+fi
+
+if (( $(echo "$tcov < 0 || $tcov > 1" | bc -l) )); then
+    echo "Error: --tcov must be between 0 and 1" >&2
+    exit 1
+fi
+
+# Validate e-value is a valid number
+if ! [[ "$evalue" =~ ^[0-9.eE-]+$ ]]; then
+    echo "Error: Invalid e-value format '$evalue'" >&2
     exit 1
 fi
 
@@ -232,7 +267,8 @@ if ! awk '!seen[$1]++' "EcoFoldDB_annotate/results_db/${name}_foldseek_results.t
     exit 1
 fi
 
-if ! awk -F'\t' '$3<1e-15 && $4>0.8 && $5>0.8' \
+if ! awk -F'\t' -v evalue="$evalue" -v qcov="$qcov" -v tcov="$tcov" \
+    '$3 < evalue && $4 > qcov && $5 > tcov' \
     "EcoFoldDB_annotate/results_db/${name}_foldseek_results.Top_Hits.txt" \
     > "EcoFoldDB_annotate/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt"; then
     echo "Error: Failed to filter top hits" >&2
