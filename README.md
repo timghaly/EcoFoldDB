@@ -21,12 +21,12 @@ chmod +x EcoFoldDB-annotate.sh
 Protein sequences are converted directly to a structural database using the ProstT5 protein language model.  
 GPU can accelarate ProstT5 inference by one to two orders of magnitude. 
 
+*Downloading Foldseek's precompiled binary - Linux AVX2 & GPU build*
 ```
-# Foldseek's precompiled binary - Linux AVX2 & GPU build
 wget https://mmseqs.com/foldseek/foldseek-linux-gpu.tar.gz
 tar xvfz foldseek-linux-gpu.tar.gz
 ```
-#### Or, compile GPU Foldseek binary from source:
+*Or, compile GPU Foldseek binary from source*:
 
 ```
 conda create -n nvcc -c conda-forge cuda-nvcc cuda-cudart-dev libcublas-dev libcublas-static cuda-version=12.6 cmake
@@ -39,21 +39,11 @@ make -j8
 make install
 ```
 
-
 For other Foldseek installation options, including non-GPU compatible Foldseek, or conda installation, see the [Foldseek installation instructions](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
 
 
-The path to the Foldseek binary directory can be set as an evironmental variable before running ```EcoFoldDB-annotate.sh```:
-```
-export PATH=/full/path/to/foldseek/bin/:$PATH
-```
-#### OR
-
-The path to the foldseek binary directory can be provided to ```EcoFoldDB-annotate.sh``` using the flag:  
-``` --foldseek_bin ```
-
-
 ### Download ProstT5 protein language model
+
 ```EcoFoldDB-annotate``` also requires the ProstT5 model to be locally installed.  
 The model can be downloaded using Foldseek:
 
@@ -62,6 +52,14 @@ foldseek databases ProstT5 ProstT5_dir tmp --remove-tmp-files 1
 ```
 
 # Usage
+The path to the Foldseek binary directory can be set as an evironmental variable before running ```EcoFoldDB-annotate.sh```:
+```
+export PATH=/full/path/to/foldseek/bin/:$PATH
+```
+Or instead, the foldseek binary directory can be provided to ```EcoFoldDB-annotate.sh``` using the flag:  
+``` --foldseek_bin ```
+
+
 ```
 ./EcoFoldDB-annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] [-o OUTDIR] INPUT_FILE
 
