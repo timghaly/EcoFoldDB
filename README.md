@@ -43,18 +43,18 @@ make install
 For other Foldseek installation options, including non-GPU compatible Foldseek, or conda installation, see the [Foldseek installation instructions](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
 
 
-The path to the Foldseek binary directory can be set as an evironmental variable before running ```EcoFoldDB_annotate.sh```:
+The path to the Foldseek binary directory can be set as an evironmental variable before running ```EcoFoldDB-annotate.sh```:
 ```
 export PATH=/full/path/to/foldseek/bin/:$PATH
 ```
 OR
 
-The path to the foldseek binary directory can be provided to ```EcoFoldDB_annotate.sh``` using the flag:  
+The path to the foldseek binary directory can be provided to ```EcoFoldDB-annotate.sh``` using the flag:  
 ``` --foldseek_bin ```
 
 
 ### Download ProstT5 protein language model using Foldseek
-The ProstT5 model is needed to run the ```EcoFoldDB_annotate.sh``` pipeline. The model can be downloaded using Foldseek:
+The ProstT5 model is needed to run the ```EcoFoldDB-annotate.sh``` pipeline. The model can be downloaded using Foldseek:
 
 ```
 foldseek databases ProstT5 ProstT5_dir tmp --remove-tmp-files 1
