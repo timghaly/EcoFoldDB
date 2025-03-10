@@ -8,7 +8,7 @@ usage() {
     echo "  --EcoFoldDB_dir    Full path to EcoFoldDB_v1.2 directory"
     echo "  --ProstT5_dir      Full path to ProstT5 model directory"
     echo "  --gpu              Use GPU (1) or CPU (0)"
-    echo "  INPUT_FILE         Input FASTA file to process"
+    echo "  INPUT_FILE         Input FASTA file of protein sequences to process"
     echo
     echo "Optional parameters:"
     echo "  --foldseek_bin     Path to directory containing foldseek binary"
