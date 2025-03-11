@@ -26,7 +26,7 @@ GPU can accelarate ProstT5 inference by one to two orders of magnitude.
 wget https://mmseqs.com/foldseek/foldseek-linux-gpu.tar.gz
 tar xvfz foldseek-linux-gpu.tar.gz
 ```
-*Or, compile GPU Foldseek binary from source*:
+*Or, compile GPU Foldseek binary from source to be optimised to your specific system*:
 
 ```
 conda create -n nvcc -c conda-forge cuda-nvcc cuda-cudart-dev libcublas-dev libcublas-static cuda-version=12.6 cmake
