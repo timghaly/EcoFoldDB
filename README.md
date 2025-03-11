@@ -64,7 +64,7 @@ Or instead, the foldseek binary directory can be provided to ```EcoFoldDB-annota
 ./EcoFoldDB-annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] [-o OUTDIR] INPUT_FILE
 
 Mandatory parameters:
---EcoFoldDB_dir    Full path to EcoFoldDB_v1.2 directory
+--EcoFoldDB_dir    Full path to EcoFoldDB_v1.3 directory
 --ProstT5_dir      Full path to ProstT5 model directory
 --gpu              Use GPU (1) or CPU (0)
 INPUT_FILE         Input FASTA file of protein sequences to process
@@ -72,7 +72,7 @@ INPUT_FILE         Input FASTA file of protein sequences to process
 Optional parameters:
 --foldseek_bin     Path to directory containing foldseek binary
 --prefilter-mode   Foldseek prefilter mode. Set to 1 for GPU-accelerated search (default: 0)
--e                 E-value threshold (default: 1e-15)
+-e                 E-value threshold (default: 1e-19)
 --qcov             Minimum query coverage (default: 0.8)
 --tcov             Minimum target coverage (default: 0.8)
 -o                 Output directory to be created (default: EcoFoldDB_annotate)

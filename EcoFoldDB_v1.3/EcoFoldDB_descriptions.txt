@@ -630,15 +630,22 @@ AF-Q1Q0T3-F1-model_v4	hzsB	hydrazine synthase beta subunit	Nitrogen cycling	Anae
 AF-Q1Q0T4-F1-model_v4	hzsC	hydrazine synthase gamma subunit	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.7	K20932; K20933; K20934	Q1Q0T4
 AF-A0P9I2-F1-model_v4	hzoA	hydrazine oxidoreductase A	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.8	K20935	A0P9I2
 AF-A0P951-F1-model_v4	hzoB	hydrazine oxidoreductase B	Nitrogen cycling	Anaerobic ammonium oxidation (Anammox)	Anammox	1.7.2.8	K20935	A0P951
-AF-Q9AQT6-F1-model_v4	ureA	Urease gamma subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01430	Q9AQT6
-AF-Q75ZQ4-F1-model_v4	ureA	Urease gamma subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01430	Q75ZQ4
-AF-P50044-F1-model_v4	ureAB	Urease gamma-beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K14048	P50044
-AF-B5ZBT0-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	B5ZBT0
-AF-C5C8U2-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	C5C8U2
-AF-P50045-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	P50045
-AF-Q4A0J4-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	Q4A0J4
-AF-Q57CE9-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01429	Q57CE9
-AF-B8HA07-F1-model_v4	ureC	Urease alpha subunit	Nitrogen cycling	Urea utilisation	Urea utilisation (ammonia and CO2 producing)	3.5.1.5	K01428	B8HA07
+AF-Q9AQT6-F1-model_v4	ureA	Urease gamma subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01430	Q9AQT6
+AF-Q75ZQ4-F1-model_v4	ureA	Urease gamma subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01430	Q75ZQ4
+AF-P50044-F1-model_v4	ureAB	Urease gamma-beta subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K14048	P50044
+AF-B5ZBT0-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01429	B5ZBT0
+AF-C5C8U2-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01429	C5C8U2
+AF-P50045-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01429	P50045
+AF-Q4A0J4-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01429	Q4A0J4
+AF-Q57CE9-F1-model_v4	ureB	Urease beta subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01429	Q57CE9
+AF-B8HA07-F1-model_v4	ureC	Urease alpha subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from urea	3.5.1.5	K01428	B8HA07
+AF-Q9L543-F1-model_v4	amiE	Aliphatic amidase	Nitrogen cycling	Organic N mineralisation	Ammonia produciton from amides	3.5.1.4	K01426	Q9L543
+AF-Q46799-F1-model_v4	xdhA	Xanthine dehydrogenase molybdenum-binding subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from nucleic acids	1.17.1.4	K00087	Q46799
+AF-Q46800-F1-model_v4	xdhB	Xanthine dehydrogenase FAD-binding subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from nucleic acids	1.17.1.4	K13479	Q46800
+AF-Q46801-F1-model_v4	xdhC	Xanthine dehydrogenase iron-sulfur-binding subunit	Nitrogen cycling	Organic N mineralisation	Ammonia production from nucleic acids	1.17.1.4	K13480	Q46801
+AF-D0VWQ1-F1-model_v4	uox	Uricase	Nitrogen cycling	Organic N mineralisation	Ammonia production from nucleic acids	1.7.3.3	K00365	D0VWQ1
+AF-P77671-F1-model_v4	allB	Allantoinase	Nitrogen cycling	Organic N mineralisation	Ammonia production from nucleic acids	3.5.2.5	K01466	P77671
+AF-P77425-F1-model_v4	allC	Allantoicase	Nitrogen cycling	Organic N mineralisation	Ammonia production from nucleic acids	3.5.3.9	K02083	P77425
 AF-Q87WW0-F1-model_v4	cysD	Sulfate adenylyltransferase subunit 2	Sulphur cycling	Sulphate reduction	Sulphate <-> APS	2.7.7.4	K00957	Q87WW0
 AF-Q64VQ9-F1-model_v4	cysN	Sulfate adenylyltransferase subunit 1	Sulphur cycling	Sulphate reduction	Sulphate <-> APS	2.7.7.4	K00956	Q64VQ9
 AF-Q54506-F1-model_v4	sat	Sulfate adenylyltransferase	Sulphur cycling	Sulphate reduction	Sulphate <-> APS	2.7.7.4	K00958	Q54506
@@ -788,16 +795,16 @@ AF-Q07121-F1-model_v4	maoA	Amine oxidase	Plant-microbe interactions	Phytohormone
 AF-B2JQY2-F1-model_v4	nit	Nitrilase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAN pathway)	3.5.5.1	K01501	B2JQY2
 AF-P10045-F1-model_v4	nit	Nitrilase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAN pathway)	3.5.5.1	K01501	P10045
 AF-Q6RWK4-F1-model_v4	nit	Nitrilase	Plant-microbe interactions	Phytohormone production	Indole-3-acetic acid production (IAN pathway)	3.5.5.1	K01501	Q6RWK4
-AF-B1XJV9-F1-model_v4	ggps	Geranylgeranyl diphosphate synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	2.5.1.1; 2.5.1.10; 2.5.1.29	K00804; K13789; K13787	B1XJV9
-AF-Q5KSN5-F1-model_v4	cps	ent-Copalyl diphosphate synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	5.5.1.13	K04120	Q5KSN5
-AF-A0A0U4CDK4-F1-model_v4	ks	ent-Kaurene synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	4.2.3.19	K04120	A0A0U4CDK4
-AF-O13284-F1-model_v4	cps/ks	Bifunctional ent-copalyl diphosphate/ent-kaurene synthase	Plant-microbe interactions	Phytohormone production	Giberellin production	5.5.1.13; 4.2.3.19	K20657	O13284
-AF-Q93ZB2-F1-model_v4	ko	ent-Kaurene oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.86	K04122; K21292	Q93ZB2
-AF-A0A0G2RKY1-F1-model_v4	ko	ent-Kaurene oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.86	K04122; K21292	A0A0G2RKY1
-AF-Q5VRM7-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	Q5VRM7
-AF-Q9C5Y2-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	Q9C5Y2
-AF-O23051-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	O23051
-AF-Q9AXH9-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Giberellin production	1.14.14.107	K04123	Q9AXH9
+AF-B1XJV9-F1-model_v4	ggps	Geranylgeranyl diphosphate synthase	Plant-microbe interactions	Phytohormone production	Gibberellin production	2.5.1.1; 2.5.1.10; 2.5.1.29	K00804; K13789; K13787	B1XJV9
+AF-Q5KSN5-F1-model_v4	cps	ent-Copalyl diphosphate synthase	Plant-microbe interactions	Phytohormone production	Gibberellin production	5.5.1.13	K04120	Q5KSN5
+AF-A0A0U4CDK4-F1-model_v4	ks	ent-Kaurene synthase	Plant-microbe interactions	Phytohormone production	Gibberellin production	4.2.3.19	K04120	A0A0U4CDK4
+AF-O13284-F1-model_v4	cps/ks	Bifunctional ent-copalyl diphosphate/ent-kaurene synthase	Plant-microbe interactions	Phytohormone production	Gibberellin production	5.5.1.13; 4.2.3.19	K20657	O13284
+AF-Q93ZB2-F1-model_v4	ko	ent-Kaurene oxidase	Plant-microbe interactions	Phytohormone production	Gibberellin production	1.14.14.86	K04122; K21292	Q93ZB2
+AF-A0A0G2RKY1-F1-model_v4	ko	ent-Kaurene oxidase	Plant-microbe interactions	Phytohormone production	Gibberellin production	1.14.14.86	K04122; K21292	A0A0G2RKY1
+AF-Q5VRM7-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Gibberellin production	1.14.14.107	K04123	Q5VRM7
+AF-Q9C5Y2-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Gibberellin production	1.14.14.107	K04123	Q9C5Y2
+AF-O23051-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Gibberellin production	1.14.14.107	K04123	O23051
+AF-Q9AXH9-F1-model_v4	kao	ent-Kaurenoic acid oxidase	Plant-microbe interactions	Phytohormone production	Gibberellin production	1.14.14.107	K04123	Q9AXH9
 AF-Q9C826-F1-model_v4	xan	Xanthoxin dehydrogenase	Plant-microbe interactions	Phytohormone production	Abscisic acid production	1.1.1.288	K09841	Q9C826
 AF-Q7G9P4-F1-model_v4	aao	Abscisic-aldehyde oxidase	Plant-microbe interactions	Phytohormone production	Abscisic acid production	1.2.3.14	K09842	Q7G9P4
 AF-Q47851-F1-model_v4	ipt	adenylate dimethylallyltransferase	Plant-microbe interactions	Phytohormone production	trans-Zeatin production	2.5.1.27	K10760	Q47851
