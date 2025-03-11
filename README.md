@@ -39,7 +39,9 @@ make -j8
 make install
 ```
 
-For other Foldseek installation options, including non-GPU compatible Foldseek, or conda installation, see the [Foldseek installation instructions](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
+*Other Foldseek installation options*:  
+
+For CPU-only Foldseek or conda installation, see the [Foldseek installation instructions](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
 
 
 ### Download ProstT5 protein language model
