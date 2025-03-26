@@ -21,7 +21,7 @@ usage() {
     exit 1
 }
 
-# Initialize variables with defaults
+# Initialise variables with defaults
 EcoFoldDB_dir=""
 ProstT5_dir=""
 gpu=""
@@ -99,7 +99,6 @@ if ! command -v foldseek &> /dev/null; then
     echo "Error: foldseek not found in PATH. Use --foldseek_bin to specify its directory." >&2
     exit 1
 fi
-
 
 # Validate remaining arguments
 if [ $# -ne 1 ]; then
@@ -188,37 +187,46 @@ echo "Starting processing for $name"
 
 # Create output directory structure
 mkdir "${output_dir}" || { echo "Error: Output directory '${output_dir}' already exists" >&2; exit 1; }
-mkdir "${output_dir}/ProstT5_db" "${output_dir}/results_db" || { 
+mkdir "${output_dir}/Filtered_seqs" "${output_dir}/ProstT5_db" "${output_dir}/results_db" || { 
     echo "Error: Failed to create subdirectories in '${output_dir}'" >&2
     exit 1
 }
 
 # Filter input sequences
-# Filter input sequences
 echo "Filtering long sequences..."
-filtered_file="${output_dir}/ProstT5_db/${name}.length_filtered.fasta"
+filtered_file="${output_dir}/Filtered_seqs/${name}.length_filtered.fasta"
+excluded_file="${output_dir}/Filtered_seqs/${name}.excluded_long_seqs.fasta"
 
-if ! awk 'BEGIN { header=""; seq=""; total=0 }
+if ! awk -v filtered="$filtered_file" -v excluded="$excluded_file" '
+    BEGIN { header=""; seq=""; total=0 }
     /^>/ {
-        if (header != "" && total <= 4000) {
-            print header;
-            printf "%s", seq;
+        if (header != "") {
+            if (total <= 4000) {
+                print header > filtered
+                printf "%s", seq > filtered
+            } else {
+                print header > excluded
+                printf "%s", seq > excluded
+            }
         }
-        header = $0;
-        seq = "";
-        total = 0;
-        next;
+        header = $0
+        seq = ""
+        total = 0
+        next
     }
     {
-        seq = seq $0 "\n";
-        total += length($0);
+        seq = seq $0 "\n"
+        total += length($0)
     }
     END {
         if (total <= 4000) {
-            print header;
-            printf "%s", seq;
+            print header > filtered
+            printf "%s", seq > filtered
+        } else {
+            print header > excluded
+            printf "%s", seq > excluded
         }
-    }' "$input_file" > "$filtered_file"; then
+    }' "$input_file"; then
     echo "Error: Failed to filter sequences with awk" >&2
     exit 1
 fi
@@ -238,7 +246,7 @@ fi
 # Create ProstT5 database
 echo "Creating ProstT5 database..."
 if ! foldseek createdb \
-    "${output_dir}/ProstT5_db/${name}.length_filtered.fasta" \
+    "${output_dir}/Filtered_seqs/${name}.length_filtered.fasta" \
     "${output_dir}/ProstT5_db/${name}_db" \
     --prostt5-model "$ProstT5_dir" \
     --gpu "$gpu"; then
