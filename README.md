@@ -7,7 +7,9 @@ Trace gas oxidation, carbon cycling (i.e., C fixation, C1 metabolism, degradatio
 `EcoFoldDB-annotate` is an annotation pipeline that leverages the scalability of the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model and [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations against EcoFoldDB at the metagenome-scale without needing to perform protein structure predictions.
 
 # Publication
-Manuscript in preparation
+[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. bioRxiv 2025.04.02.646905; doi: https://doi.org/10.1101/2025.04.02.646905](https://www.biorxiv.org/content/10.1101/2025.04.02.646905v1)
+
+
 # Installation
 
 ### Clone EcoFoldDB repository
@@ -87,7 +89,8 @@ The main annotation results will be in the output directory with the file extens
 
 # Citations
 If you have used EcoFoldDB, please cite the following:  
-*Manuscript in preparation*
+[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. bioRxiv 2025.04.02.646905; doi: https://doi.org/10.1101/2025.04.02.646905](https://www.biorxiv.org/content/10.1101/2025.04.02.646905v1)
+
 
 
 If you have used `EcoFoldDB-annotate`, in addition to the EcoFoldDB publication, please cite the following dependencies:
