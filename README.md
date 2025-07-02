@@ -21,14 +21,16 @@ chmod +x EcoFoldDB-annotate.sh
 ### Install Foldseek
 `EcoFoldDB-annotate` requires Foldseek for protein annotations. A GPU-compatible Foldseek is highly recommended for metagenome-scale annotations (i.e., for millions of proteins).  
 Protein sequences are converted directly to a structural database using the ProstT5 protein language model.  
-GPU can accelarate ProstT5 inference by one to two orders of magnitude. 
+GPU can accelarate ProstT5 inference by one to two orders of magnitude.  
 
-*Downloading Foldseek's precompiled binary - Linux AVX2 & GPU build*
+There are different options to install Foldseek:  
+
+*Option 1 (GPU Foldseek): Download Foldseek's precompiled binary - Linux AVX2 & GPU build*
 ```
 wget https://mmseqs.com/foldseek/foldseek-linux-gpu.tar.gz
 tar xvfz foldseek-linux-gpu.tar.gz
 ```
-*Or, compile GPU Foldseek binary from source to be optimised to your specific system*:
+*Option 2 (GPU Foldseek): Instead, compile GPU Foldseek binary from source to be optimised to your specific system*:
 
 ```
 conda create -n nvcc -c conda-forge cuda-nvcc cuda-cudart-dev libcublas-dev libcublas-static cuda-version=12.6 cmake
@@ -41,9 +43,9 @@ make -j8
 make install
 ```
 
-*Other Foldseek installation options*:  
+*Option 3 (CPU-only Foldseek): Other Foldseek installation options*:  
 
-For CPU-only Foldseek, or conda installation instructions, see the [Foldseek installation page](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
+For precompiled CPU-only Foldseek binary, or conda installation instructions, see the [Foldseek installation page](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
 
 
 ### Download ProstT5 protein language model
