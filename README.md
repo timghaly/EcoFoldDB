@@ -2,7 +2,7 @@
 Database and pipeline for protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale (millions of proteins).
 
 EcoFoldDB is a database of protein structures encoded by microbial genes involved in:  
-Trace gas oxidation, carbon cycling (i.e., C fixation and C metabolism and degradation), nitrogen cycling, sulphur cycling, phosphorus cycling, iron cycling, plant-microbe interactions, and osmotic stress tolerance.
+Trace gas oxidation, carbon cycling (i.e., C fixation, metabolism and degradation), nitrogen cycling, sulphur cycling, phosphorus cycling, iron cycling, plant-microbe interactions, and osmotic stress tolerance.
 
 `EcoFoldDB-annotate` is an annotation pipeline that leverages the scalability of the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model and [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations against EcoFoldDB at the metagenome-scale without needing to perform protein structure predictions.
 
