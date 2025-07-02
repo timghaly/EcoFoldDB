@@ -76,7 +76,7 @@ INPUT_FILE         Input FASTA file of protein sequences to process
 Optional parameters:
 --foldseek_bin     Path to directory containing foldseek binary
 --prefilter-mode   Prefilter mode. Set to 1 for GPU-accelerated search (default: 0)
--e                 E-value threshold (default: 1e-14)
+-e                 E-value threshold (default: 1e-10)
 --qcov             Minimum query coverage (default: 0.8)
 --tcov             Minimum target coverage (default: 0.8)
 --tmp-dir          Temporary directory for Foldseek (default: OUTDIR/results_db/NAME_tmp)
