@@ -98,7 +98,7 @@ If you have used EcoFoldDB, please cite the following:
 
 
 
-If you have used `EcoFoldDB-annotate`, in addition to the EcoFoldDB publication, please cite the following dependencies:
+Please also cite the following dependencies:
 
 Foldseek:  
 [van Kempen M, Kim S, Tumescheit C, Mirdita M, Lee J, Gilchrist CLM, Söding J, and Steinegger M. Fast and accurate protein structure search with Foldseek. *Nature Biotechnology*, doi:10.1038/s41587-023-01773-0 (2023)](https://doi.org/10.1038/s41587-023-01773-0)  
