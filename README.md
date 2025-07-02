@@ -19,7 +19,7 @@ cd EcoFoldDB
 chmod +x EcoFoldDB-annotate.sh
 ```
 ### Install Foldseek
-`EcoFoldDB-annotate` requires Foldseek for protein annotations. A GPU-compatible Foldseek is highly recommened for metagenome-scale annotations (i.e., for millions of proteins).  
+`EcoFoldDB-annotate` requires Foldseek for protein annotations. A GPU-compatible Foldseek is highly recommended for metagenome-scale annotations (i.e., for millions of proteins).  
 Protein sequences are converted directly to a structural database using the ProstT5 protein language model.  
 GPU can accelarate ProstT5 inference by one to two orders of magnitude. 
 
