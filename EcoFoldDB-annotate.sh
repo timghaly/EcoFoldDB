@@ -333,16 +333,16 @@ fi
 if ! awk -F'\t' 'NR==FNR {valid[$1]; next} $2 in valid' \
     "$valid_targets_file" \
     "${output_dir}/results_db/${name}_foldseek_results.top_hits.txt" \
-    > "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.txt"; then
+    > "${output_dir}/results_db/${name}_foldseek_results.top_EFDB_hits.txt"; then
     echo "Error: Failed to filter top hits by valid targets" >&2
     exit 1
 fi
 
-# Filter top hits with e-value, qcov and tcov thresholds
+# Step 3: Filter top hits with e-value, qcov and tcov thresholds
 if ! awk -F'\t' -v evalue="$evalue" -v qcov="$qcov" -v tcov="$tcov" \
     '$3 < evalue && $4 > qcov && $5 > tcov' \
-    "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.txt" \
-    > "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt"; then
+    "${output_dir}/results_db/${name}_foldseek_results.top_EFDB_hits.txt" \
+    > "${output_dir}/results_db/${name}_foldseek_results.top_EFDB_hits.Filtered.txt"; then
     echo "Error: Failed to filter top hits by thresholds" >&2
     exit 1
 fi
@@ -358,7 +358,7 @@ fi
 if ! awk -F'\t' 'NR==FNR {lookup[$1] = $2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7"\t"$8; next} 
     $2 in lookup {print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"lookup[$2]}' \
     "$EcoFoldDB_dir/EcoFoldDB_descriptions.txt" \
-    "${output_dir}/results_db/${name}_foldseek_results.Top_Hits.Filtered.txt" \
+    "${output_dir}/results_db/${name}_foldseek_results.top_EFDB_hits.Filtered.txt" \
     >> "${output_dir}/${name}.ecofolddb_annotations.txt"; then
     echo "Error: Failed to attach annotations" >&2
     exit 1
