@@ -293,6 +293,7 @@ if ! foldseek search \
     "$tmp_dir" \
     --gpu "$gpu" \
     --prefilter-mode "$prefilter" \
+    -s 8 \
     --remove-tmp-files "$remove_tmp_files"; then
     echo "Error: Foldseek search failed" >&2
     exit 1
