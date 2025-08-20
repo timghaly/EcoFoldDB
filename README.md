@@ -92,16 +92,16 @@ Optional parameters:
 # Output
 The main annotation results will be in the output directory with the file extension `.ecofolddb_annotations.txt`
 
-### Other outputs
+### Output directory structure
 ```
-OUTDIR/                                                  <- top-level output directory (default: EcoFoldDB_annotate)
+OUTDIR/
 ├── ${name}.ecofolddb_annotations.txt                       # Main annotation result
 ├── Filtered_seqs/
 │   ├── ${name}.length_filtered.fasta                       # Input protein sequences included after filtering
 │   └── ${name}.excluded_long_seqs.fasta                    # Input protein sequences excluded after filtering
-├── ProstT5_db/                                             # ProstT5 Foldseek database created from filtered sequences
-│   └── ${name}_db                                          # Foldseek DB files (binary database files)
-└── results_db/                                             # Foldseek search results and downstream processing
+├── ProstT5_db/
+│   └── ${name}_db*                                         # ProstT5 Foldseek database files (binary database files)
+└── results_db/                                             
     ├── ${name}_results.*                                   # Foldseek result DB files produced by foldseek `search` command
     ├── ${name}_foldseek_results.txt                        # All Foldseek hits to target EFDB and non-target Swiss-Prot structures
     ├── ${name}_foldseek_results.top_hits.txt               # Top hit for each query protein
