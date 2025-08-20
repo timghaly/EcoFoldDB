@@ -92,9 +92,27 @@ Optional parameters:
 # Output
 The main annotation results will be in the output directory with the file extension `.ecofolddb_annotations.txt`
 
+### Other outputs
+```
+OUTDIR/                                                  <- top-level output directory (default: EcoFoldDB_annotate)
+├── ${name}.ecofolddb_annotations.txt                       # Main annotation result
+├── Filtered_seqs/
+│   ├── ${name}.length_filtered.fasta                       # Input protein sequences included after filtering
+│   └── ${name}.excluded_long_seqs.fasta                    # Input protein sequences excluded after filtering
+├── ProstT5_db/                                             # ProstT5 Foldseek database created from filtered sequences
+│   └── ${name}_db                                          # Foldseek DB files (binary database files)
+└── results_db/                                             # Foldseek search results and downstream processing
+    ├── ${name}_results.*                                   # Foldseek result DB files produced by foldseek `search` command
+    ├── ${name}_foldseek_results.txt                        # All Foldseek hits to target EFDB and non-target Swiss-Prot structures
+    ├── ${name}_foldseek_results.top_hits.txt               # Top hit for each query protein
+    ├── ${name}_foldseek_results.top_EFDB_hits.txt          # Queries whose top hit is with a target EFDB structure
+    ├── ${name}_foldseek_results.top_EFDB_hits.Filtered.txt # Top EFDB hits filtered by alignment coverage e-value thresholds
+    └── valid_targets.txt                                   # Target EFDB structures from EcoFoldDB
+```
+
 # Citations
 If you have used EcoFoldDB, please cite the following:  
-[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. bioRxiv 2025.04.02.646905; doi: https://doi.org/10.1101/2025.04.02.646905](https://www.biorxiv.org/content/10.1101/2025.04.02.646905v2.full)
+[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. bioRxiv 2025.04.02.646905](https://www.biorxiv.org/content/10.1101/2025.04.02.646905v2.full)
 
 
 
