@@ -7,7 +7,7 @@ Trace gas oxidation, carbon cycling (i.e., C fixation, metabolism and degradatio
 `EcoFoldDB-annotate` is an annotation pipeline that leverages the scalability of the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model and [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations against EcoFoldDB at the metagenome-scale without needing to perform protein structure predictions.
 
 # Publication
-[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. bioRxiv 2025.04.02.646905; doi: https://doi.org/10.1101/2025.04.02.646905](https://www.biorxiv.org/content/10.1101/2025.04.02.646905v2.full)
+[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. *Environmental Microbiology*, 27: e70178; doi: https://doi.org/10.1111/1462-2920.70178](https://doi.org/10.1111/1462-2920.70178)
 
 
 # Installation
@@ -112,16 +112,16 @@ OUTDIR/
 
 # Citations
 If you have used EcoFoldDB, please cite the following:  
-[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. bioRxiv 2025.04.02.646905](https://www.biorxiv.org/content/10.1101/2025.04.02.646905v2.full)
+[Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. *Environmental Microbiology*, 27: e70178; doi: https://doi.org/10.1111/1462-2920.70178](https://doi.org/10.1111/1462-2920.70178)
 
 
 
 Please also cite the following dependencies:
 
 Foldseek:  
-[van Kempen M, Kim S, Tumescheit C, Mirdita M, Lee J, Gilchrist CLM, Söding J, and Steinegger M. Fast and accurate protein structure search with Foldseek. *Nature Biotechnology*, doi:10.1038/s41587-023-01773-0 (2023)](https://doi.org/10.1038/s41587-023-01773-0)  
+[van Kempen M, Kim S, Tumescheit C, Mirdita M, Lee J, Gilchrist CLM, Söding J, and Steinegger M. (2023) Fast and accurate protein structure search with Foldseek. *Nature Biotechnology*, doi:10.1038/s41587-023-01773-0](https://doi.org/10.1038/s41587-023-01773-0)  
 ProstT5:  
-[Heinzinger, M., Weissenow, K., Sanchez, J.G., Henkel, A., Mirdita, M., Steinegger, M., and Rost, B. Bilingual language model for protein sequence and structure, *NAR Genomics and Bioinformatics*, doi:10.1093/nargab/lqae150 (2024)](https://doi.org/10.1093/nargab/lqae150)  
+[Heinzinger, M., Weissenow, K., Sanchez, J.G., Henkel, A., Mirdita, M., Steinegger, M., and Rost, B. (2024) Bilingual language model for protein sequence and structure, *NAR Genomics and Bioinformatics*, doi:10.1093/nargab/lqae150](https://doi.org/10.1093/nargab/lqae150)  
 If you have used `--prefilter-mode 1`, please also cite MMSeqs2 GPU-accelerated search:  
-[Kallenborn, F., Chacon, A., Hundt, C., Sirelkhatim, H., Didi, K., Cha, S., Dallago, C., Mirdita, M., Schmidt, B. and Steinegger, M. GPU-accelerated homology search with MMseqs2. *bioRxiv*, doi: 10.1101/2024.11.13.623350 (2024)](https://doi.org/10.1101/2024.11.13.623350)
+[Kallenborn, F., Chacon, A., Hundt, C., Sirelkhatim, H., Didi, K., Cha, S., Dallago, C., Mirdita, M., Schmidt, B. and Steinegger, M. (2025) GPU-accelerated homology search with MMseqs2. *Nature Methods*, https://doi.org/10.1038/s41592-025-02819-8](https://doi.org/10.1038/s41592-025-02819-8)
 
