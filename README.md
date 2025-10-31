@@ -4,7 +4,7 @@ Database and pipeline for protein structure-guided functional profiling of ecolo
 EcoFoldDB is a database of protein structures encoded by microbial genes involved in:  
 Trace gas oxidation, carbon cycling (i.e., C fixation, metabolism and degradation), nitrogen cycling, sulphur cycling, phosphorus cycling, iron cycling, plant-microbe interactions, and osmotic stress tolerance.
 
-`EcoFoldDB-annotate` is an annotation pipeline that leverages the scalability of the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model and [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations against EcoFoldDB at the metagenome-scale without needing to perform protein structure predictions.
+`EcoFoldDB-annotate` is an annotation pipeline using [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations against EcoFoldDB at the metagenome-scale. It can accept as input, either protein sequences in FASTA format, in which case it leverages the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model without needing to perform protein structure predictions, or can accept a Foldseek structural database.
 
 # Publication
 [Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. *Environmental Microbiology*, 27: e70178; doi: https://doi.org/10.1111/1462-2920.70178](https://doi.org/10.1111/1462-2920.70178)
@@ -19,7 +19,7 @@ cd EcoFoldDB
 chmod +x EcoFoldDB-annotate.sh
 ```
 ### Install Foldseek
-`EcoFoldDB-annotate` requires Foldseek for protein annotations. A GPU-compatible Foldseek is highly recommended for metagenome-scale annotations (i.e., for millions of proteins).  
+`EcoFoldDB-annotate` requires Foldseek for protein annotations. If using ProstT5 inference (protein sequences as input), then a GPU-compatible Foldseek is highly recommended for metagenome-scale annotations (i.e., for millions of proteins).  
 Protein sequences are converted directly to a structural database using the ProstT5 protein language model.  
 GPU can accelarate ProstT5 inference by one to two orders of magnitude.  
 
@@ -48,9 +48,9 @@ make install
 For precompiled CPU-only Foldseek binary, or conda installation instructions, see the [Foldseek installation page](https://github.com/steineggerlab/foldseek?tab=readme-ov-file#installation).
 
 
-### Download ProstT5 protein language model
+### Download ProstT5 protein language model (If input are protein sequences)
 
-`EcoFoldDB-annotate` also requires the ProstT5 model to be locally installed.  
+If using protein sequences as input, `EcoFoldDB-annotate` requires the ProstT5 model to be locally installed.  
 The model can be downloaded using Foldseek:
 
 ```
@@ -67,25 +67,31 @@ Or instead, the foldseek binary directory can be provided to `EcoFoldDB-annotate
 
 
 ```
-./EcoFoldDB-annotate.sh --EcoFoldDB_dir PATH --ProstT5_dir PATH --gpu (0|1) [--foldseek_bin PATH] [--prefilter-mode (0|1)] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] [--tmp-dir PATH] [--remove-tmp-files (0|1)] [-o OUTDIR] INPUT_FILE
+./EcoFoldDB-annotate.sh --EcoFoldDB_dir PATH [--gpu (0|1)] [--ProstT5_dir PATH] [--foldseek_bin PATH] [-e EVALUE] [--qcov QCOV] [--tcov TCOV] [--tmp-dir PATH] [--remove-tmp-files (0|1)] [-o OUTDIR] INPUT_FILE_OR_DB
+EcoFoldDB-annotate v2.1.0
+
+Input types:
+  FASTA file:        File with .fasta, .fa, or .faa extension
+  Foldseek database: Path to and including database name
 
 Mandatory parameters:
---EcoFoldDB_dir    Full path to EcoFoldDB_v2.0 directory
---ProstT5_dir      Full path to ProstT5 model directory
---gpu              Use GPU (1) or CPU (0)
-INPUT_FILE         Input FASTA file of protein sequences to process
+  --EcoFoldDB_dir    Full path to EcoFoldDB_v2.0 directory
+  INPUT_FILE_OR_DB   Input FASTA file of protein sequences OR Foldseek structural database
+
+Mandatory parameters required for FASTA input:
+  --ProstT5_dir      Full path to ProstT5 model directory (required for FASTA input)
+  --gpu              Use GPU (1) or CPU (0) (required for FASTA input)
 
 Optional parameters:
---foldseek_bin     Path to directory containing foldseek binary
---prefilter-mode   Prefilter mode. Set to 1 for GPU-accelerated search (default: 0)
--e                 E-value threshold (default: 1e-10)
---qcov             Minimum query coverage (default: 0.8)
---tcov             Minimum target coverage (default: 0.8)
---tmp-dir          Temporary directory for Foldseek (default: OUTDIR/results_db/NAME_tmp)
---remove-tmp-files Remove temporary files (0=no, 1=yes) (default: 0)
--o                 Output directory to be created (default: EcoFoldDB_annotate)
--h, --help         Show this help message
---version          Show version information
+  --foldseek_bin     Path to directory containing foldseek binary
+  -e                 E-value threshold (default: 1e-10)
+  --qcov             Minimum query coverage (default: 0.8)
+  --tcov             Minimum target coverage (default: 0.8)
+  --tmp-dir          Temporary directory for Foldseek (default: OUTDIR/results_db/NAME_tmp)
+  --remove-tmp-files Remove temporary files (0=no, 1=yes) (default: 0)
+  -o                 Output directory to be created (default: EcoFoldDB_annotate)
+  -h, --help         Show this help message
+  --version          Show version information
 
 
 ```
@@ -120,8 +126,6 @@ Please also cite the following dependencies:
 
 Foldseek:  
 [van Kempen M, Kim S, Tumescheit C, Mirdita M, Lee J, Gilchrist CLM, Söding J, and Steinegger M. (2023) Fast and accurate protein structure search with Foldseek. *Nature Biotechnology*, doi:10.1038/s41587-023-01773-0](https://doi.org/10.1038/s41587-023-01773-0)  
-ProstT5:  
+If you have used ProstT5:  
 [Heinzinger, M., Weissenow, K., Sanchez, J.G., Henkel, A., Mirdita, M., Steinegger, M., and Rost, B. (2024) Bilingual language model for protein sequence and structure, *NAR Genomics and Bioinformatics*, doi:10.1093/nargab/lqae150](https://doi.org/10.1093/nargab/lqae150)  
-If you have used `--prefilter-mode 1`, please also cite MMSeqs2 GPU-accelerated search:  
-[Kallenborn, F., Chacon, A., Hundt, C., Sirelkhatim, H., Didi, K., Cha, S., Dallago, C., Mirdita, M., Schmidt, B. and Steinegger, M. (2025) GPU-accelerated homology search with MMseqs2. *Nature Methods*, https://doi.org/10.1038/s41592-025-02819-8](https://doi.org/10.1038/s41592-025-02819-8)
 
