@@ -4,7 +4,7 @@ Database and pipeline for protein structure-guided functional profiling of ecolo
 EcoFoldDB is a database of protein structures encoded by microbial genes involved in:  
 Trace gas oxidation, carbon cycling (i.e., C fixation, metabolism and degradation), nitrogen cycling, sulphur cycling, phosphorus cycling, iron cycling, plant-microbe interactions, and osmotic stress tolerance.
 
-`EcoFoldDB-annotate` is an annotation pipeline using [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) to allow structure-based functional annotations against EcoFoldDB at the metagenome-scale. It can accept as input, either protein sequences, in which case it leverages the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model to prevent the need to perform protein structure predictions, or can accept a database of protein structures as input.
+`EcoFoldDB-annotate` is an annotation pipeline using [Foldseek](https://doi.org/10.1038/s41587-023-01773-0) for structure-based functional annotations against EcoFoldDB at the metagenome-scale. Input can be either raw protein sequences (in which case the pipeline leverages the [ProstT5](https://doi.org/10.1093/nargab/lqae150) protein language model so that you don’t need to run structure prediction) or an already built Foldseek database of protein structures.
 
 # Publication
 [Ghaly, T.M., Rajabal, V., Russell, D., Colombi, E. and Tetu, S.G (2025) EcoFoldDB: Protein structure-guided functional profiling of ecologically relevant microbial traits at the metagenome scale. *Environmental Microbiology*, 27: e70178; doi: https://doi.org/10.1111/1462-2920.70178](https://doi.org/10.1111/1462-2920.70178)
@@ -19,10 +19,11 @@ cd EcoFoldDB
 chmod +x EcoFoldDB-annotate.sh
 ```
 ### Install Foldseek
-`EcoFoldDB-annotate` requires Foldseek for protein annotations. If using ProstT5 inference (protein sequences as input), then a GPU-compatible Foldseek is highly recommended for metagenome-scale annotations (i.e., for millions of proteins).  
-Protein sequences are converted directly to a structural database using the ProstT5 protein language model.  
-GPU can accelarate ProstT5 inference by one to two orders of magnitude.  
-If using protein structures as input (must be a Foldseek database), then either a CPU-only or GPU-Foldseek will work equally.
+`EcoFoldDB-annotate` requires Foldseek for protein annotations.  
+
+If using protein sequences as input, then a GPU-compatible Foldseek is highly recommended for metagenome-scale annotations (i.e., for millions of proteins). Foldseek converts protein sequences directly to structural representations using the ProstT5 protein language model. GPU can accelarate ProstT5 inference by one to two orders of magnitude.  
+
+If using protein structures as input (must be converted to a Foldseek database), then either a CPU-only or GPU-Foldseek will work equally.
 
 There are different options to install Foldseek:  
 
